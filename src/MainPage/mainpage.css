@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .hero-h1-text{
     font-size: 32px;
@@ -16,4 +17,10 @@
 .hero-text {
     width: 290px;
     margin: 0 0 51px 0;
+}
+.hero-img{
+    width: 100%;
+}
+.heroimg-mobile{
+    width: 100%;
 }

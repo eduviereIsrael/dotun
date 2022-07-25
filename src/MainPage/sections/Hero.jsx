@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { images } from '../../constants/images';
 
 const Hero = () => {
   return (
@@ -11,6 +12,10 @@ const Hero = () => {
                 I am a user-experince and Interface designer that put real people 
                 at the center of development process
             </p>
+            <a href="/" className='primary-btn'>Go to Projects</a>
+        </div>
+        <div className='hero-img'>
+            <img src={images.herobgmobile} alt="" className='heroimg-mobile'/>
         </div>
         
     </div>
