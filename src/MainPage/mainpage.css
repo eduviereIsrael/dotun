@@ -19,7 +19,14 @@
     margin: 0 0 51px 0;
 }
 .hero-img{
+    height: 55vh;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url('../assets/herobgmob.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom center; */
 }
 .heroimg-mobile{
     width: 100%;
@@ -31,4 +38,88 @@
 .all{
     color: #3DBBE6;  /* fallback for old browsers */
     
+}
+
+/* marquee section */
+
+.marquee-section{
+    background-color: #fff;
+    height: 420px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.marquee {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    background-color: #FC7557;
+    height: 88px;
+    padding: 14px 0;
+    justify-content: center;
+    
+}
+.second-marquee {
+    background-color: #7F9DFF;
+    transform: rotate(-1.5deg);
+    width: 130%;
+}
+.second-marquee .loop{
+    flex-direction: row-reverse;
+    animation: marquee 45s linear infinite;
+}
+
+.loop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: max-content;
+    align-items: center;
+    /* overflow-x: auto; */
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 50s linear infinite;
+    height: 88px;
+    /* background-color: blue; */
+    /* width: 180%; */
+}
+
+.marquee-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+.marquee-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border: .5px solid #000;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.marquee-text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 15px 25px;
+    background-color: #000;
+    border: .5px solid #fff;
+    height: 30px;
+    width:max-content;
+    border-radius: 20px;
+    border: .5px solid #fff;
 }

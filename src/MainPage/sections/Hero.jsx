@@ -15,7 +15,7 @@ const Hero = () => {
             <a href="/" className='primary-btn'>Go to Projects</a>
         </div>
         <div className='hero-img'>
-            <img src={images.herobgmobile} alt="" className='heroimg-mobile'/>
+            {/* <img src={images.herobgmobile} alt="" className='heroimg-mobile'/> */}
         </div>
         
     </div>
