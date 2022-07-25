@@ -1,8 +1,19 @@
 .mainpage {
     margin: 120px 0 0 0;
 }
-.hero-text{
+.hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-h1-text{
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
+    margin: 0 0 16px 0;
+}
+.hero-text {
+    width: 290px;
+    margin: 0 0 51px 0;
 }

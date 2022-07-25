@@ -6,9 +6,10 @@
 
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: sticky;
     top: 0;
-    left: 0;
+    background-color: #000;
+    z-index: 1;
 }
 a {
     text-decoration: none;
@@ -21,8 +22,8 @@ a {
     display: none;
 }
 .hamburger-div{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 
