@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.section-padding{
+    padding: 0px 20px;
+}
+.desktop-view{
+    display: none;
+}
+.hamburger-div{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hamburger{
+    width: 100%;
+
+}
+
+@media screen and (min-width: 900px){
+    .desktop-view{
+        display: flex;
+    }
+    .mobile-view{
+        display: none;
+    }
+}
