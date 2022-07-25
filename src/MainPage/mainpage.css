@@ -24,3 +24,11 @@
 .heroimg-mobile{
     width: 100%;
 }
+
+.for{
+    color: #A35BDA;  /* fallback for old browsers */ 
+}
+.all{
+    color: #3DBBE6;  /* fallback for old browsers */
+    
+}

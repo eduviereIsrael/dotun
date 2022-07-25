@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
         <div className='hero-intro'>
             <h1 className='hero-h1-text'>
-                <span className='gradient'>Design </span><span className='gradient'>For </span><span className='gradient'>All</span>
+                <span className='gradient'>Design </span><span className='for'>For </span><span className='all'>All</span>
             </h1>
             <p className='hero-text'>
                 I am a user-experince and Interface designer that put real people 
