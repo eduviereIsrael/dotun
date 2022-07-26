@@ -20,6 +20,10 @@
     line-height: 38px;
     margin: 0 0 16px 0;
 }
+
+h2{
+    font-weight: 700;
+}
 .hero-text {
     width: 290px;
     margin: 0 0 51px 0;
@@ -79,7 +83,7 @@
 }
 
 .second-marquee .loop{
-    animation: marqueei 19s linear infinite;
+    animation: marquee 19s linear infinite;
     flex-direction: row-reverse;
 }
 
@@ -99,7 +103,7 @@
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 32s linear infinite;
+    animation: marqueei 32s linear infinite;
 }
 
 .marquee-item{
