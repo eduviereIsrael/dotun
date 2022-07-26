@@ -65,12 +65,13 @@
     height: 88px;
     padding: 14px 0;
     justify-content: center;
+    width: 100%;
     
 }
 .second-marquee {
     background-color: #7F9DFF;
     transform: rotate(-1.5deg);
-    width: 130%;
+    width: 100%;
 }
 .second-marquee .loop{
     flex-direction: row-reverse;
