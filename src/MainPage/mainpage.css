@@ -60,6 +60,10 @@
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
+@keyframes marqueei {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0%); }
+}
 
 
 .marquee {
@@ -75,7 +79,7 @@
 }
 
 .second-marquee .loop{
-    animation: marquee 19s linear infinite;
+    animation: marqueei 19s linear infinite;
     flex-direction: row-reverse;
 }
 
