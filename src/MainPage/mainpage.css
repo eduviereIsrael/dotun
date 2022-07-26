@@ -1,3 +1,7 @@
+*{
+    overflow-x: hidden;
+}
+
 .mainpage {
     margin: 120px 0 0 0;
     width: 100vw !important;
