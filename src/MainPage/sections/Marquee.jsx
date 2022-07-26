@@ -12,8 +12,9 @@ const Marquee = () => {
     <div className="marquee-section">
         <div className='marquee'>
             <div className='firstLoop loop'>
+                
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
+                    <div className='marquee-item' key={i}>
                     <div className='marquee-img'>
                         <img src={item.img} alt={item.name} />
                     </div>
@@ -21,7 +22,7 @@ const Marquee = () => {
                 </div>
                 ))}
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
+                    <div className='marquee-item' key={i}>
                     <div className='marquee-img'>
                         <img src={item.img} alt={item.name} />
                     </div>
@@ -29,65 +30,43 @@ const Marquee = () => {
                 </div>
                 ))}
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
+                    <div className='marquee-item' key={i}>
                     <div className='marquee-img'>
                         <img src={item.img} alt={item.name} />
                     </div>
                     <div className='marquee-text'>{item.name}</div>
                 </div>
                 ))}
-                {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
-                    <div className='marquee-text'>{item.name}</div>
-                </div>
-                ))}
+                
             </div>
         </div>
         <div className='second-marquee marquee'>
             <div className='firstLoop loop'>
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
+                    <div className='marquee-item' key={i}>
+                        <div className='marquee-img'>
+                            <img src={item.img} alt={item.name} />
+                        </div>
                     <div className='marquee-text'>{item.name}</div>
                 </div>
                 ))}
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
+                    <div className='marquee-item' key={i}>
+                        <div className='marquee-img'>
+                            <img src={item.img} alt={item.name} />
+                        </div>
                     <div className='marquee-text'>{item.name}</div>
                 </div>
                 ))}
                 {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
+                    <div className='marquee-item' key={i}>
+                        <div className='marquee-img'>
+                            <img src={item.img} alt={item.name} />
+                        </div>
                     <div className='marquee-text'>{item.name}</div>
                 </div>
                 ))}
-                {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
-                    <div className='marquee-text'>{item.name}</div>
-                </div>
-                ))}
-                {marquee.map((item, i) => (
-                    <div className='marquee-item'>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
-                    </div>
-                    <div className='marquee-text'>{item.name}</div>
-                </div>
-                ))}
+                
             </div>
         </div>
     </div>
