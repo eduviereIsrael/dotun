@@ -42,9 +42,15 @@ h1{
 h2{
   font-size: 24px;
 }
+h3{
+  font-size: 20px;
+  font-weight: 700;
+}
 p{
   font-size: 16px;
 }
+
+
 
 .gradient{
   background: #A35BDA;  /* fallback for old browsers */
@@ -67,8 +73,10 @@ p{
   -webkit-text-fill-color : transparent;
   -moz-text-fill-color: transparent;
   background-clip: text; */
-  height: 67px;
-  width: 197px;
+  /* height: 67px;
+  width: 197px; */
+  width: fit-content;
+  padding: 15px 40px;
   border-radius: 23px;
   border-top-left-radius: 1px;
   display: flex;

@@ -5,7 +5,7 @@
 .mainpage {
     margin: 120px 0 0 0;
     width: 100vw !important;
-    overflow-x: hidden !important; 
+    /* overflow-x: hidden !important;  */
 }
 .hero-intro {
     display: flex;
@@ -83,7 +83,7 @@ h2{
 }
 
 .second-marquee .loop{
-    animation: marquee 19s linear infinite;
+    animation: marquee 40s linear infinite;
     flex-direction: row-reverse;
 }
 
@@ -103,7 +103,7 @@ h2{
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marqueei 32s linear infinite;
+    animation: marqueei 40s linear infinite;
 }
 
 .marquee-item{
@@ -138,4 +138,25 @@ h2{
     width:max-content;
     border-radius: 20px;
     border: .5px solid #fff;
+}
+
+/* works section styling */
+
+.works {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.works-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 20px 0 0;
+
 }
