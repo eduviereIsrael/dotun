@@ -4,7 +4,7 @@ import { project } from '../../constants/project';
 
 const Works = () => {
   return (
-    <div className='works'>
+    <div className='works' id='projects'>
         <div className='intro'>
             <h2 className='gradient'>Projects</h2>
             <p>Top curated products I have worked on</p>

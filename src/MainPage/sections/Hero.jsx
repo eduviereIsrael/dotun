@@ -12,7 +12,7 @@ const Hero = () => {
                 I am a user-experince and Interface designer that put real people 
                 at the center of development process
             </p>
-            <a href="/" className='primary-btn'>Go to Projects</a>
+            <a href="#projects" className='primary-btn'>Go to Projects</a>
         </div>
         <div className='hero-img'>
             {/* <img src={images.herobgmobile} alt="" className='heroimg-mobile'/> */}
