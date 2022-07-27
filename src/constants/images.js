@@ -1,6 +1,6 @@
 import hambuger from '../assets/hambuga-open.svg';
 import hambugerx from '../assets/hambuga-close.svg';
-import herobgmobile from '../assets/herobgmob.svg';
+import herobgmobile from '../assets/herobgmob.png';
 import figma from '../assets/figma.png';
 import clickup from '../assets/clickup.png';
 import framer from '../assets/framer.png';
@@ -9,6 +9,8 @@ import protopie from '../assets/protopie.png';
 import slack from '../assets/slack.png';
 import whimisical from '../assets/whimisical.png';
 import xd from '../assets/xd.png';
+import Byte from '../assets/Byte.png'
+import Caree from '../assets/Caree.png'
 
 export const marquee = [
     {
@@ -49,6 +51,8 @@ export const images = {
     hambuger,
     hambugerx,
     herobgmobile,
+    Byte,
+    Caree
 }
 
 // export default images;

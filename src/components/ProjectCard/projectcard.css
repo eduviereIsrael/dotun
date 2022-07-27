@@ -4,11 +4,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 30px 0 30px;
+    margin: 30px 30px 0px 30px;
     padding: 50px 50px 0 50px;
     width: 100%;
     overflow: hidden;
-    max-width: 700px;
+    /* max-width: 700px; */
+    border: none;
+    border-radius: 15px;
 }
 
 .proj-text{
@@ -25,8 +27,11 @@ h3{
 }
 .card-img{
     width: 100%;
-    height: 40px;
-    background-color: yellow;
+    /* height: 40px; */
+    /* background-color: yellow; */
     margin: 25px auto 0px;
     
+}
+.card-img > img {
+    width: 100%;
 }

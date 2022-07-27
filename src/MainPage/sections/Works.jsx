@@ -1,5 +1,6 @@
-import React from 'react'
-import ProjectCard from '../../components/ProjectCard/ProjectCard'
+import React from 'react';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import { project } from '../../constants/project';
 
 const Works = () => {
   return (
@@ -9,7 +10,10 @@ const Works = () => {
             <p>Top curated products I have worked on</p>
         </div>
         <div className='works-container'>
-            <ProjectCard />
+          {project.map((item) => (
+            <ProjectCard project = {item} />
+          ))}
+            {/* <ProjectCard /> */}
         </div>
         
     </div>
