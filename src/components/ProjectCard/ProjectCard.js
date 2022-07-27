@@ -1,5 +1,6 @@
 import React from 'react';
-import './projectcard.css'
+import './projectcard.css';
+import {Link} from 'react-router-dom'
 
 const ProjectCard = ({project}) => {
   return (
@@ -7,7 +8,7 @@ const ProjectCard = ({project}) => {
         <div className='card-intro'>
             <h3 className='gradient'>{project.name}, activities</h3>
             <p className='small-text'>short description</p>
-            <a href='/' className='primary-btn'>View</a>
+            <Link to={project.linkUrl} className='primary-btn'>View</Link>
         </div>
         <div className='card-img'>
           <img src={project.img} alt={project.name} />

@@ -8,11 +8,13 @@ export const project = [
         ux: [''],
         desc: '',
         img: Byte,
+        linkUrl: '/byte',
     },
     {
         name: 'Caree',
         ux: [''],
         desc: '',
         img: Caree,
+        linkUrl: '/caree'
     },
 ]

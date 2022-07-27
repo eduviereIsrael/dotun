@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import { images } from '../constants/images';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
         <a href='/'>Work</a>
       </div>
       <div>
-        <a href='/'>Adedotun Ayodimeji</a>
+        <Link to='/'>Adedotun Ayodimeji</Link>
       </div>
       <div className='desktop-view'>
         <a href='/'>About</a>

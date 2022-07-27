@@ -70,7 +70,6 @@ export const socials = [
   
 ]
 
-
 export const images = {
     hambuger,
     hambugerx,
