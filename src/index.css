@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family:  'Montserrat', sans-serif;
+  /* font-family:  'Montserrat', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
@@ -14,7 +14,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+p {
+  font-family: 'Montserrat';
+}
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

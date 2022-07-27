@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Grifter';
+  src: url(./assets/grifterbold.otf);
+}
+
 .App {
   text-align: center;
 }
@@ -42,15 +47,18 @@ a:hover {
 }
 h1{
   font-size: 32px;
+  font-family: 'Grifter', sans-serif;
 }
 h2{
   font-size: 24px;
+  font-family: 'Grifter';
 }
 h3{
   font-size: 20px;
   font-weight: 700;
 }
 p{
+  /* font-family: ; */
   font-size: 16px;
 }
 

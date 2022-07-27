@@ -11,6 +11,10 @@ import whimisical from '../assets/whimisical.png';
 import xd from '../assets/xd.png';
 import Byte from '../assets/Byte.png'
 import Caree from '../assets/Caree.png'
+import twitter from '../assets/twitter.png'
+import instagram from '../assets/instagram.png'
+import linkedin from '../assets/linkedin.png'
+import behance from '../assets/behance.png'
 
 export const marquee = [
     {
@@ -46,6 +50,26 @@ export const marquee = [
         img: xd
     },
 ]
+export const socials = [
+    {
+        name: 'Twitter',
+        img: twitter
+    },
+    {
+        name: 'Instagram',
+        img: instagram
+    },
+    {
+        name: 'Linkedin',
+        img: linkedin
+    },
+    {
+        name: 'Behance',
+        img: behance
+    },
+  
+]
+
 
 export const images = {
     hambuger,
