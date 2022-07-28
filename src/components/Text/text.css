@@ -1,0 +1,21 @@
+.text-container {
+    padding: 20px;
+}
+.text-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.text-header h3{
+    padding: 0;
+    margin: 0;
+}
+.text-header img{
+    padding: 0;
+    margin: 0 10px 0 0;
+    width: 24px;
+}
+p {
+    text-align: left;
+}

@@ -2,12 +2,15 @@ import React from 'react';
 import '../casestudies.css'
 import './Byte.css';
 import { useStateContext } from '../../StateContext';
+import { Text } from '../../components';
+
+
 
 const Byte = () => {
 
   const project = useStateContext();
   const byte = {...project[0]}
-  const {name, intro, bgColor, introMockups} = byte
+  const {name, intro, bgColor, introMockups, introduction} = byte
   console.log(byte)
   return (
     <div className='project_container'>
@@ -28,6 +31,12 @@ const Byte = () => {
           <img src={img} key={i} alt={`mockup carousel ${i}`} className='mockup-carousel-img' />
         ))}
       </div>
+      <div className='case-study-cont'>
+        <div className='introduction sec-theme'>
+            <Text header='Introduction' text={introduction}/>
+        </div>
+      </div>
+      
     </div>
   )
 }

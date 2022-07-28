@@ -5,6 +5,15 @@
     justify-content: space-around;
     margin: 34px 0;
 }
+
+.case-study-cont {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* banner style */
 .banner {
     display: flex;
     flex-direction: column;
@@ -32,6 +41,8 @@
     transform: rotate(-20deg);
 }
 
+
+/* Mobile Carousel */
 .introMockups {
     background-color: #fff;
     display: flex;
@@ -44,8 +55,18 @@
     padding: 50px 25px;
     margin: 0;
 }
-
 .mockup-carousel-img {
     width: 190px;
     margin: 0 20px;
+}
+
+.sec-theme{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Main case study */
+
+.introduction{
+    margin: 30px 0 0 0;
 }

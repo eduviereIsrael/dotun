@@ -19,6 +19,7 @@ import ByteIM1 from '../assets/ByteIntroMockup1.png'
 import ByteIM2 from '../assets/ByteIntroMockup2.png'
 import ByteIM3 from '../assets/ByteIntroMockup3.png'
 import ByteIM4 from '../assets/ByteIntroMockup4.png'
+import textHeaderIcon from '../assets/text-header-icon.png'
 
 export const marquee = [
     {
@@ -89,7 +90,8 @@ export const images = {
     hambugerx,
     herobgmobile,
     Byte,
-    Caree
+    Caree,
+    textHeaderIcon
 }
 
 // export default images;
