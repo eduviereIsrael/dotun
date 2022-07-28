@@ -33,10 +33,10 @@ h2{
     width: 100%;
     padding: 0;
     margin: 0;
-    background: url('../assets/herobgmob.svg');
+    background: url('../assets/herobgmob.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: bottom center; */
+    background-position: center;
 }
 .heroimg-mobile{
     width: 100%;
@@ -165,4 +165,67 @@ h2{
     width: 100%;
     padding: 0px 20px 0;
 
+}
+.card {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+    padding: 50px 50px 0 50px;
+    width: 100%;
+    overflow: hidden;
+    /* max-width: 700px; */
+    border: none;
+    border-radius: 15px;
+}
+
+.small-text{
+    font-size: 13px;
+    color: #fff;
+    text-align: left;
+}
+.card-intro{
+    width: 100%;
+}
+
+h3{
+    text-align: left;
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    /* height: 40px; */
+    /* background-color: yellow; */
+    margin: 25px auto 0px;
+    
+}
+.card-img > img {
+    width: 100%;
+}
+
+
+
+/* Responsive style */
+
+@media screen and (min-width: 760px){
+    .card {
+        box-sizing: border-box;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 150px 200px 0 200px;
+        width: 45%;
+        overflow: hidden;
+        /* max-width: 700px; */
+        border: none;
+        border-radius: 15px;
+    }
+    
 }

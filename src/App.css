@@ -35,6 +35,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  max-width: 1200px;
 }
 
 .App-link {
@@ -78,6 +79,7 @@ p{
   -webkit-text-fill-color : transparent;
   -moz-text-fill-color: transparent;
   background-clip: text;
+  transition: background .5s ease;
 }
 .primary-btn{
   background: #A35BDA;  /* fallback for old browsers */

@@ -6,7 +6,7 @@ const ProjectCard = ({project}) => {
   return (
     <div className='card'>
         <div className='card-intro'>
-            <h3 className='gradient'>{project.name}, activities</h3>
+            <h3 className='gradient'>{project.name}</h3>
             <p className='small-text'>short description</p>
             <Link to={project.linkUrl} className='primary-btn'>View</Link>
         </div>

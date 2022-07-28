@@ -5,14 +5,14 @@ const { Byte, Caree} = images
 export const project = [
     {
         name: 'Byte',
-        ux: [''],
+        ux: ['UI/UX Design', 'Interaction', 'Prototype'],
         desc: '',
         img: Byte,
         linkUrl: '/byte',
     },
     {
         name: 'Caree',
-        ux: [''],
+        ux: ['UI/UX Design', 'Interaction', 'Prototype'],
         desc: '',
         img: Caree,
         linkUrl: '/caree'
