@@ -1,9 +1,29 @@
 import React from 'react';
-import './Byte.css'
+import '../casestudies.css'
+import './Byte.css';
+import { useStateContext } from '../../StateContext';
 
 const Byte = () => {
+
+  const project = useStateContext();
+  const byte = {...project[0]}
+  const {name, intro, bgColor, introMockups} = byte
+  console.log(byte)
   return (
-    <div>Byte</div>
+    <div className='project_container'>
+      <div className='banner' style={{background: bgColor}}>
+        <div className='banner-intro'>
+          <h1> 
+            {name}
+          </h1>
+          <p>{intro}</p>
+        </div>
+        <div>
+          <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img1' />
+          <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img2' />
+        </div>
+      </div>
+    </div>
   )
 }
 

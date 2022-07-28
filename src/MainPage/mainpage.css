@@ -227,5 +227,15 @@ h3{
         border: none;
         border-radius: 15px;
     }
+    .hero-img{
+        height: 55vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: url('../assets/herobgdesk.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+    }
     
 }

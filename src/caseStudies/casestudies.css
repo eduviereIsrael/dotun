@@ -1,0 +1,33 @@
+.project_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 34px 0;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 50px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-img1{
+    position: absolute;
+    width: 159px;
+    top: -190px;
+    right: 30px;
+    transform: rotate(20deg);
+}
+.banner-img2{
+    position: absolute;
+    width: 159px;
+    bottom: -190px;
+    left: 30px;
+    transform: rotate(-20deg);
+}

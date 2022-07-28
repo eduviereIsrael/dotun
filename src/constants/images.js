@@ -15,6 +15,10 @@ import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import behance from '../assets/behance.png'
+import ByteIM1 from '../assets/ByteIntroMockup1.png'
+import ByteIM2 from '../assets/ByteIntroMockup2.png'
+import ByteIM3 from '../assets/ByteIntroMockup3.png'
+import ByteIM4 from '../assets/ByteIntroMockup4.png'
 
 export const marquee = [
     {
@@ -50,6 +54,7 @@ export const marquee = [
         img: xd
     },
 ]
+
 export const socials = [
     {
         name: 'Twitter',
@@ -69,6 +74,15 @@ export const socials = [
     },
   
 ]
+
+export const ByteIntroMockups = [
+    ByteIM1,
+    ByteIM2,
+    ByteIM3,
+    ByteIM4
+]
+
+
 
 export const images = {
     hambuger,
