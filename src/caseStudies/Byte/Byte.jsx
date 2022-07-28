@@ -23,6 +23,11 @@ const Byte = () => {
           <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img2' />
         </div>
       </div>
+      <div className='introMockups'>
+        {introMockups.map((img, i) => (
+          <img src={img} key={i} alt={`mockup carousel ${i}`} className='mockup-carousel-img' />
+        ))}
+      </div>
     </div>
   )
 }

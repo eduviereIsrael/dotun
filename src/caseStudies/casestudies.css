@@ -31,3 +31,21 @@
     left: 30px;
     transform: rotate(-20deg);
 }
+
+.introMockups {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 50px 25px;
+    margin: 0;
+}
+
+.mockup-carousel-img {
+    width: 190px;
+    margin: 0 20px;
+}
