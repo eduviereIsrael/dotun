@@ -27,10 +27,10 @@ import bytelfsketch3 from '../assets/bytelfsketch3.png';
 import bytelfsketch4 from '../assets/bytelfsketch4.png';
 import bytelfsketch5 from '../assets/bytelfsketch5.png';
 import byteWireframeImg from '../assets/byte-wireframe.png';
-import contactImg from '../assets/contact.png';
-import homepageImg from '../assets/homepage.png';
-import paymentImg from '../assets/payment.png';
-import amountImg from '../assets/amount.png';
+import byteContactImg from '../assets/contact.png';
+import byteHomepageImg from '../assets/homepage.png';
+import bytePaymentImg from '../assets/payment.png';
+import byteAmountImg from '../assets/amount.png';
 import splash1Img from '../assets/splash1.png';
 import splash2Img from '../assets/splash2.png';
 import onboarding1Img from '../assets/onboarding1.png';
@@ -116,12 +116,12 @@ export const ByteLoFiSketch = [
     bytelfsketch5,
 ]
 
-export const splashScreens = [
+export const byteSplashScreens = [
     splash1Img,
     splash2Img
 ]
 
-export const onboardingScreens = [
+export const byteOnboardingScreens = [
     onboarding1Img,
     onboarding2Img,
     onboarding3Img,
@@ -149,10 +149,10 @@ export const images = {
     textHeaderIcon,
     byteCompAdv,
     byteWireframeImg,
-    contactImg,
-    homepageImg,
-    paymentImg,
-    amountImg
+    byteContactImg,
+    byteHomepageImg,
+    bytePaymentImg,
+    byteAmountImg
 }
 
 // export default images;

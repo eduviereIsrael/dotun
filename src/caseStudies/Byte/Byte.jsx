@@ -2,7 +2,7 @@ import React from 'react';
 import '../casestudies.css'
 import './Byte.css';
 import { useStateContext } from '../../StateContext';
-import { ImgCarousel, Text } from '../../components';
+import { DivCarousel, ImgCarousel, Team, Text } from '../../components';
 
 
 
@@ -25,7 +25,12 @@ const Byte = () => {
     loFiSketches,
     loFiSketchesImg,
     wireframeImg,
-    wireframes} = byte;
+    wireframes,
+    finalDesignImg,
+    successMetrics,
+    team} = byte;
+
+    console.log(finalDesignImg)
 
   return (
     <div className='project_container'>
@@ -41,11 +46,7 @@ const Byte = () => {
           <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img2' />
         </div>
       </div>
-      {/* <div className='introMockups'>
-        {introMockups.map((img, i) => (
-          <img src={img} key={i} alt={`mockup carousel ${i}` } className='mockup-carousel-img' />
-        ))}
-      </div> */}
+
       <ImgCarousel carousel={introMockups} width='150px' class='intromMockups'/>
       <div className='case-study-cont'>
         <div className='sec-theme'>
@@ -84,12 +85,27 @@ const Byte = () => {
  
         </div>
       </div>
+
       <ImgCarousel carousel={loFiSketchesImg} width='200px' class='byte-lo-fi-imgs' />
+
       <div className='case-study-cont'>
-              
+
        <Text header='Wireframes' text={wireframes} class='wireframes' />
 
        <img src={wireframeImg} alt={wireframeImg} className='project-img wireframe-img' />
+
+      </div>
+
+      <DivCarousel>
+        {finalDesignImg.map((item, i) => (
+          <div key = {i}>{item}</div>
+          ))}
+      </DivCarousel>
+
+      <div className='case-study-cont'>
+        <Text header='Success Metric' text={successMetrics} class='success-metrics'/>
+        <Text header='Team Members' class='team-members'/>
+        <Team team={team}/>
       </div>
       
     </div>

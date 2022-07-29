@@ -1,12 +1,38 @@
 import React, {createContext, useContext} from 'react';
-import { images, ByteIntroMockups, ByteLoFiSketch } from './constants/images';
+import {HiFiScreen} from './components';
+import { images, ByteIntroMockups, ByteLoFiSketch, byteSplashScreens, byteOnboardingScreens } from './constants/images';
 
 
 const Context = createContext();
 
 export const StateContext = ({children}) => {
 
-    const {Byte, Caree, byteCompAdv, byteWireframeImg} = images
+    const {
+        Byte,
+        Caree,
+        byteCompAdv,
+        byteWireframeImg,
+        byteContactImg,
+        byteHomepageImg,
+        bytePaymentImg,
+        byteAmountImg} = images;
+    
+    const bContactImg = <HiFiScreen img = {byteContactImg} screenName = 'Contact' />
+    const bHomepageImg = <HiFiScreen img = {byteHomepageImg} screenName = 'Homepage' />
+    const bPaymentImg = <HiFiScreen img = {bytePaymentImg} screenName = 'Payment' />
+    const bAmountImg = <HiFiScreen img = {byteAmountImg} screenName = 'Amount' />
+
+
+
+
+    const bSplashScreens = byteSplashScreens.map((splash, i) => (
+        <HiFiScreen img={splash} key = {i} screenName='Splash' />
+    ))
+    const bOnboardingScreens = byteOnboardingScreens.map((screen, i) => (
+        <HiFiScreen img={screen} key = {i} screenName='Onboarding' />
+    ))
+
+    const bFinalScreens = [...bSplashScreens, ...bOnboardingScreens, bHomepageImg, bContactImg, bAmountImg, bPaymentImg]
 
     const project = [
         {
@@ -33,8 +59,22 @@ export const StateContext = ({children}) => {
             wireframes: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for us.",
             wireframeImg: byteWireframeImg,
             finalDesign: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for us",
-            finalDesignImg: ''
-            
+            finalDesignImg: bFinalScreens,
+            successMetrics: 'Byte launch in December 2021, and after 3month, byte partnered with one major bank in Nigeria, $10,000 plus processed payment since inception and more than 600 waitlist sign up. After 3month of services and user feedback and testing, We started byte 2.0 as an updated service which you can read about',
+            team: [
+                {
+                    name: 'Khalid',
+                    role: 'Founder'
+                },
+                {
+                    name: 'Richard',
+                    role: 'Product Owner'
+                },
+                {
+                    name: 'Victor',
+                    role: 'Dev Lead'
+                },
+            ]
         },
         {
             name: 'Caree',
@@ -43,7 +83,7 @@ export const StateContext = ({children}) => {
             img: Caree,
             linkUrl: '/caree'
         },
-    ]
+    ];
 
     return(
         <Context.Provider

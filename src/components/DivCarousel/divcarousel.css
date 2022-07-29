@@ -1,0 +1,12 @@
+.div-carousel {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 50px 25px 30px 25px;
+    margin: 0;
+}

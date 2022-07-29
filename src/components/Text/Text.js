@@ -11,7 +11,9 @@ const Text = (props) => {
             <img src={textHeaderIcon} alt='text-header-icon' />
             <h3>{props.header}</h3>
         </div>
-        <p>{props.text}.</p>
+        {/* <p>{props.text? props.text : ''}.</p> */}
+        {props.text? <p>{props.text}</p> : ''}
+
     </div>
   )
 }

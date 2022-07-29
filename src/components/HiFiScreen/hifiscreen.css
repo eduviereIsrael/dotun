@@ -1,0 +1,13 @@
+.hifi-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hifi-screen img{
+    width: 150px;
+    margin: 0 20px;
+}
+.hifi-screen p{
+    text-align: center;
+}
