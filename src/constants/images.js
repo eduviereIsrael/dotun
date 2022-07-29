@@ -9,17 +9,42 @@ import protopie from '../assets/protopie.png';
 import slack from '../assets/slack.png';
 import whimisical from '../assets/whimisical.png';
 import xd from '../assets/xd.png';
-import Byte from '../assets/Byte.png'
-import Caree from '../assets/Caree.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.png'
-import behance from '../assets/behance.png'
-import ByteIM1 from '../assets/ByteIntroMockup1.png'
-import ByteIM2 from '../assets/ByteIntroMockup2.png'
-import ByteIM3 from '../assets/ByteIntroMockup3.png'
-import ByteIM4 from '../assets/ByteIntroMockup4.png'
-import textHeaderIcon from '../assets/text-header-icon.png'
+import Byte from '../assets/Byte.png';
+import Caree from '../assets/Caree.png';
+import twitter from '../assets/twitter.png';
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/linkedin.png';
+import behance from '../assets/behance.png';
+import ByteIM1 from '../assets/ByteIntroMockup1.png';
+import ByteIM2 from '../assets/ByteIntroMockup2.png';
+import ByteIM3 from '../assets/ByteIntroMockup3.png';
+import ByteIM4 from '../assets/ByteIntroMockup4.png';
+import textHeaderIcon from '../assets/text-header-icon.png';
+import byteCompAdv from '../assets/byte-comp-adv.png';
+import bytelfsketch1 from '../assets/bytelfsketch1.png';
+import bytelfsketch2 from '../assets/bytelfsketch2.png';
+import bytelfsketch3 from '../assets/bytelfsketch3.png';
+import bytelfsketch4 from '../assets/bytelfsketch4.png';
+import bytelfsketch5 from '../assets/bytelfsketch5.png';
+import byteWireframeImg from '../assets/byte-wireframe.png';
+import contactImg from '../assets/contact.png';
+import homepageImg from '../assets/homepage.png';
+import paymentImg from '../assets/payment.png';
+import amountImg from '../assets/amount.png';
+import splash1Img from '../assets/splash1.png';
+import splash2Img from '../assets/splash2.png';
+import onboarding1Img from '../assets/onboarding1.png';
+import onboarding2Img from '../assets/onboarding2.png';
+import onboarding3Img from '../assets/onboarding3.png';
+import onboarding4Img from '../assets/onboarding4.png';
+import onboarding5Img from '../assets/onboarding5.png';
+import onboarding6Img from '../assets/onboarding6.png';
+import onboarding7Img from '../assets/onboarding7.png';
+import onboarding8Img from '../assets/onboarding8.png';
+import onboarding9Img from '../assets/onboarding9.png';
+import onboarding10Img from '../assets/onboarding10.png';
+
+
 
 export const marquee = [
     {
@@ -83,6 +108,36 @@ export const ByteIntroMockups = [
     ByteIM4
 ]
 
+export const ByteLoFiSketch = [
+    bytelfsketch1,
+    bytelfsketch2,
+    bytelfsketch3,
+    bytelfsketch4,
+    bytelfsketch5,
+]
+
+export const splashScreens = [
+    splash1Img,
+    splash2Img
+]
+
+export const onboardingScreens = [
+    onboarding1Img,
+    onboarding2Img,
+    onboarding3Img,
+    onboarding4Img,
+    onboarding5Img,
+    onboarding6Img,
+    onboarding7Img,
+    onboarding8Img,
+    onboarding9Img,
+    onboarding10Img,
+]
+
+// export const ByteFinaldesign = [
+//     ,
+// ]
+
 
 
 export const images = {
@@ -91,7 +146,13 @@ export const images = {
     herobgmobile,
     Byte,
     Caree,
-    textHeaderIcon
+    textHeaderIcon,
+    byteCompAdv,
+    byteWireframeImg,
+    contactImg,
+    homepageImg,
+    paymentImg,
+    amountImg
 }
 
 // export default images;

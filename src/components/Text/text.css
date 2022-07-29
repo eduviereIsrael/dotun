@@ -1,5 +1,6 @@
 .text-container {
-    padding: 20px;
+    padding: 0px 20px;
+    margin-top: 70px;
 }
 .text-header {
     display: flex;

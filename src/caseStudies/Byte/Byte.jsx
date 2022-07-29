@@ -2,7 +2,7 @@ import React from 'react';
 import '../casestudies.css'
 import './Byte.css';
 import { useStateContext } from '../../StateContext';
-import { Text } from '../../components';
+import { ImgCarousel, Text } from '../../components';
 
 
 
@@ -10,8 +10,23 @@ const Byte = () => {
 
   const project = useStateContext();
   const byte = {...project[0]}
-  const {name, intro, bgColor, introMockups, introduction} = byte
-  console.log(byte)
+  const {
+    name, 
+    intro, 
+    bgColor, 
+    introMockups, 
+    introduction, 
+    problemDef, 
+    questions, 
+    causes,
+    ideation,
+    compAdv,
+    compAnalysisImg,
+    loFiSketches,
+    loFiSketchesImg,
+    wireframeImg,
+    wireframes} = byte;
+
   return (
     <div className='project_container'>
       <div className='banner' style={{background: bgColor}}>
@@ -26,15 +41,55 @@ const Byte = () => {
           <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img2' />
         </div>
       </div>
-      <div className='introMockups'>
+      {/* <div className='introMockups'>
         {introMockups.map((img, i) => (
-          <img src={img} key={i} alt={`mockup carousel ${i}`} className='mockup-carousel-img' />
+          <img src={img} key={i} alt={`mockup carousel ${i}` } className='mockup-carousel-img' />
         ))}
-      </div>
+      </div> */}
+      <ImgCarousel carousel={introMockups} width='150px' class='intromMockups'/>
       <div className='case-study-cont'>
-        <div className='introduction sec-theme'>
-            <Text header='Introduction' text={introduction}/>
+        <div className='sec-theme'>
+            <Text header='Introduction' text={introduction} class='introduction'/>
+
+            <Text header='Problem Definition' text={problemDef} class='problem-def'/>
+
+            <div className='list questions'>
+              <ul>
+                {questions.map((question, i) => (
+                  <li key={i} >{question}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className='list'>
+              <h4>Before we answer those questions, we must understand the cause</h4>
+              <ol>
+                {causes.map((causes, i) => (
+                  <li key={i} >{causes}.</li>
+                ))}
+              </ol>
+            </div>
+
+            <Text header='Ideation' text={ideation} class='ideation'/>
+
+            <Text header='Competitive Advantage' text={compAdv} class='competitive-adv'/>
+
+            <img src={compAnalysisImg} alt={compAnalysisImg} className='project-img competitor-analysis' />
+
+            <Text header='Sketches/Lo-Fi Ideation' text={loFiSketches} class='loFiSketches'/>
+
+            {/* <ImgCarousel carousel={introMockups} width='150px' class='intromMockups'/> */}
+
+            
+ 
         </div>
+      </div>
+      <ImgCarousel carousel={loFiSketchesImg} width='200px' class='byte-lo-fi-imgs' />
+      <div className='case-study-cont'>
+              
+       <Text header='Wireframes' text={wireframes} class='wireframes' />
+
+       <img src={wireframeImg} alt={wireframeImg} className='project-img wireframe-img' />
       </div>
       
     </div>
