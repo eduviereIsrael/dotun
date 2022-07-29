@@ -5,7 +5,7 @@ const HiFiScreen = (props) => {
   return (
     <div className='hifi-screen'>
         <img src={props.img} alt={props.img} />
-        <p className='smalltext'>{props.screenName}</p>
+        <p className='small-text'>{props.screenName}</p>
     </div>
   )
 }
