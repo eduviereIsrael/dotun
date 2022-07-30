@@ -43,7 +43,10 @@ import onboarding7Img from '../assets/onboarding7.png';
 import onboarding8Img from '../assets/onboarding8.png';
 import onboarding9Img from '../assets/onboarding9.png';
 import onboarding10Img from '../assets/onboarding10.png';
-
+import careeHomepage from '../assets/caree-homepage.png';
+import careeInfoscreen from '../assets/caree-infoscreen.png';
+import careeMedicines from '../assets/caree-medicines.png';
+import careeTaskpage from '../assets/caree-taskpage.png';
 
 
 export const marquee = [
@@ -108,6 +111,8 @@ export const ByteIntroMockups = [
     ByteIM4
 ]
 
+
+
 export const ByteLoFiSketch = [
     bytelfsketch1,
     bytelfsketch2,
@@ -152,7 +157,11 @@ export const images = {
     byteContactImg,
     byteHomepageImg,
     bytePaymentImg,
-    byteAmountImg
+    byteAmountImg,
+    careeHomepage,
+    careeInfoscreen,
+    careeMedicines,
+    careeTaskpage
 }
 
 // export default images;

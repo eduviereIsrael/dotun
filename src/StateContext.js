@@ -15,15 +15,16 @@ export const StateContext = ({children}) => {
         byteContactImg,
         byteHomepageImg,
         bytePaymentImg,
-        byteAmountImg} = images;
+        byteAmountImg,
+        careeHomepage,
+        careeInfoscreen,
+        careeMedicines,
+        careeTaskpage} = images;
     
     const bContactImg = <HiFiScreen img = {byteContactImg} screenName = 'Contact' />
     const bHomepageImg = <HiFiScreen img = {byteHomepageImg} screenName = 'Homepage' />
     const bPaymentImg = <HiFiScreen img = {bytePaymentImg} screenName = 'Payment' />
     const bAmountImg = <HiFiScreen img = {byteAmountImg} screenName = 'Amount' />
-
-
-
 
     const bSplashScreens = byteSplashScreens.map((splash, i) => (
         <HiFiScreen img={splash} key = {i} screenName='Splash' />
@@ -32,7 +33,21 @@ export const StateContext = ({children}) => {
         <HiFiScreen img={screen} key = {i} screenName='Onboarding' />
     ))
 
-    const bFinalScreens = [...bSplashScreens, ...bOnboardingScreens, bHomepageImg, bContactImg, bAmountImg, bPaymentImg]
+    const bFinalScreens = [...bSplashScreens, ...bOnboardingScreens, bHomepageImg, bContactImg, bAmountImg, bPaymentImg];
+    
+    const cHomepageImg = <HiFiScreen img = {careeHomepage} screenName='Homepage' />
+    const cInfoscreenImg = <HiFiScreen img = {careeInfoscreen} screenName='Info Screen' />
+    const cMedicinesImg = <HiFiScreen img = {careeMedicines} screenName='Medicines' />
+    const cTaskpageImg = <HiFiScreen img = {careeTaskpage} screenName='Task Page' />
+
+    const CareeIntroMockups = [
+        cHomepageImg,
+        cInfoscreenImg,
+        cMedicinesImg,
+        cTaskpageImg
+    ]
+
+
 
     const project = [
         {
@@ -81,7 +96,16 @@ export const StateContext = ({children}) => {
             role: ['UI/UX Design', 'Interaction', 'Prototype'],
             desc: '',
             img: Caree,
-            linkUrl: '/caree'
+            linkUrl: '/caree',
+            intro: 'Application for better living',
+            introLong: 'Smart Care Mobile App  for Personalized Care and Support Planning',
+            tool: 'Figma',
+            year: '2022',
+            introduction: '"The Older age and Individuals living with long term circumstances (LTCs) are the best clients of NHS administrations and the biggest piece of the well-being administration financial plan are spent on their help. The consideration and backing expected to live well with an LTC are generally unique to that for the intense medical issues - while individuals with LTCs regularly spend only a couple of hours a year with well-being and care experts, they live with their circumstances and make due them consistently themselves. The well-being and care framework should uphold people to have the information, abilities also certainty to plan and deal with their own well-being and care, and to help one more with regards to their more extended families and networks. We in this manner need a significant re-plan of current methodologies. This will call for some progressions across the Well being and care framework: from the manner in which experts and individuals cooperate in a face to face counsels, to how experts are prepared and what backing individuals can tap into, including support for carers and relatives". Propels in medical care have helped individuals in England to live longer than any time in recent memory. Therefore, the quantity of more seasoned individuals in England is developing fundamentally and this pace of development is projected to accelerate throughout the following 20 years. This is uplifting news for us all yet it makes a test for the NHS - as we age we will more often than not get long-haul conditions and need more well-being and social consideration.',
+            introMockups: CareeIntroMockups,
+            bgColor: '#0166FF',
+            problemDef: "On 24 December 2021, the Government declared that care workers would be added to the Home Office's Shortage Occupation List (SOL) for visa purposes, The change has followed suggestions from the Migration Advisory Committee (MAC) corresponding to the issue of significant enlistment challenges and extreme and expanding hardships looked by the consideration area. “There will be 'a tsunami' of people without the care they need this winter unless staff shortages are tackled” England's care watchdog is warning. Care shortage meant more patients judged fit to go home were stuck in hospital as they lack who to look after them at home. As a result, many older people are not receiving the adequate care and guidance needed to go through the face of their life.",
+            
         },
     ];
 

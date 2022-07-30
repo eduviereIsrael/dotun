@@ -30,7 +30,7 @@ const Byte = () => {
     successMetrics,
     team} = byte;
 
-    console.log(finalDesignImg)
+    // console.log(finalDesignImg)
 
   return (
     <div className='project_container'>

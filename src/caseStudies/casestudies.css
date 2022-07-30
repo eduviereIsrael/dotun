@@ -5,6 +5,13 @@
     align-items: center;
     justify-content: space-around;
     margin: 34px 0;
+    width: 100%;
+    max-width: 1000px;
+    align-self: center;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
 }
 
 .case-study-cont {
@@ -27,6 +34,9 @@
     border-top-right-radius: 30px;
     position: relative;
     overflow: hidden;
+}
+.banner p {
+    text-align: center;
 }
 .banner-img1{
     position: absolute;

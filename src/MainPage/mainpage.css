@@ -27,6 +27,7 @@ h2{
 .hero-text {
     width: 290px;
     margin: 0 0 51px 0;
+    text-align: center;
 }
 .hero-img{
     height: 55vh;

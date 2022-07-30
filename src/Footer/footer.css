@@ -11,6 +11,9 @@
     width: 100%; */
 }
 
+.footer p {
+    text-align: center;
+}
 .social-icons {
     display: flex;
     flex-direction: column;
