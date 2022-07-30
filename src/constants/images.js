@@ -47,6 +47,11 @@ import careeHomepage from '../assets/caree-homepage.png';
 import careeInfoscreen from '../assets/caree-infoscreen.png';
 import careeMedicines from '../assets/caree-medicines.png';
 import careeTaskpage from '../assets/caree-taskpage.png';
+import careeDD from '../assets/careeDD.png';
+import careeCompAdv from '../assets/comp-analysis.png';
+import reqSpecImg from '../assets/req-specification.png';
+import cSketch1 from '../assets/caree-sketch1.png';
+import cSketch2 from '../assets/caree-sketch2.png';
 
 
 export const marquee = [
@@ -121,6 +126,11 @@ export const ByteLoFiSketch = [
     bytelfsketch5,
 ]
 
+export const careeLoFiSketch = [
+    cSketch1,
+    cSketch2
+]
+
 export const byteSplashScreens = [
     splash1Img,
     splash2Img
@@ -161,7 +171,10 @@ export const images = {
     careeHomepage,
     careeInfoscreen,
     careeMedicines,
-    careeTaskpage
+    careeTaskpage,
+    careeDD,
+    careeCompAdv,
+    reqSpecImg
 }
 
 // export default images;

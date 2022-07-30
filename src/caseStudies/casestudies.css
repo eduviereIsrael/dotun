@@ -17,10 +17,20 @@
 .case-study-cont {
     background-color: #fff;
     color: #000;
-    padding: 0 0 100px 0;
+    padding: 0 0px 100px 0px;
 }
 
-
+.p{
+    padding: 0px 20px;
+}
+.bold-text{
+    font-weight: bold;
+}
+.subhead {
+     margin-top: 40px;
+     padding: 0 20px;
+     font-weight: bold;
+}
 
 /* banner style */
 .banner {
@@ -53,6 +63,12 @@
     transform: rotate(-20deg);
 }
 
+.paragraph {
+    margin: 15px 0;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
 
 .sec-theme{
     background-color: #fff;
@@ -75,6 +91,7 @@
     margin: 20px 0;
     padding: 0 20px;
 }
+
 .questions {
     margin-bottom: 40px;
 }

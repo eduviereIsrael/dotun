@@ -105,6 +105,34 @@ export const StateContext = ({children}) => {
             introMockups: CareeIntroMockups,
             bgColor: '#0166FF',
             problemDef: "On 24 December 2021, the Government declared that care workers would be added to the Home Office's Shortage Occupation List (SOL) for visa purposes, The change has followed suggestions from the Migration Advisory Committee (MAC) corresponding to the issue of significant enlistment challenges and extreme and expanding hardships looked by the consideration area. “There will be 'a tsunami' of people without the care they need this winter unless staff shortages are tackled” England's care watchdog is warning. Care shortage meant more patients judged fit to go home were stuck in hospital as they lack who to look after them at home. As a result, many older people are not receiving the adequate care and guidance needed to go through the face of their life.",
+            questions: null,
+            ideation: null,
+            solution: 'Due to the high rate of Personal Health Carers and professionals needed in the United Kingdom. The number of Carers needed is always not enough, especially since the time of Covid19. So, the app will make a Carer job more flexible and effective, meaning with a smart care app, Care homes and carer can look after patients and clients effectively with perfect and real time care scheduling. Now few carer can reach more patient easily. The app will work with 3rd parties apps like Uber for transport, Diliveroo for food, Getir for groceries and Airtasker for household task and many more. The carer and care home admin will be logged in as an admin and make quick orders for patients or client.',
+            methodology: 'I followed a lean UX design thinking process to ensure that my decisions were supported through user research and feedback. Double diamond design process model',
+            compAdv: null,
+            designProcess:[ 
+                {
+            
+                    step: 'Discover',
+                    text: 'The first step of the design process is critical for gathering information, requirements, and other data you need in order to make informed decisions later. This part helps me to empathize with the users through problem exploration, Foundational research, Surveys and Competitive analysis  Foundational Research : According to the NHS More than one in five of us are already over 60, and the number of people over 60 is expected to increase from 14.9 million in 2014 to 18.5 million in 2025 (ONS, 2015) 75% of 21 75-year-olds in the UK have more than one long term condition, rising to 82% of 85- year-olds (Barnett et al, 2012) Between 2007/08 and 2013/14 the numbers of A&E attendances by people aged 60 or over increased by two-thirds, a steeper increase than is expected by demographic change alone (NHS England data, 2015)'
+                },
+                {
+            
+                    step: 'Competitive Analysis',
+                    text: 'There are a variety of healthcare apps for both scheduling and consultation present currently but many only focus on time schedule for the carer and has give little or no information about the patient/client. * see appendix A for competitive analysis diagram.  User Interview and Survey I decided to uses online survey and share with health care assistance because many might feel uncomfortable in providing information in person. I decided to streamline the survey question into 6 so as too minimize or eliminate information about the vulnerable once. As at the time of this writeup, I have not gotten ethics approval from the university and no data was collected '
+                },
+                {
+            
+                    step: 'Define',
+                    text: 'The knowledge accumulated from the disclosure stage can assist with characterizing the test another way. User personals, Empathy map , how to transform problem statement pain point to gain point. Develop : This stage helps to give different answers to the clearly defined problem, seeking inspiration from elsewhere and co-designing with a range of different people. This stage include Card sorting , Information Architecture and User flow, Low fidelity wireframe. Deliver : This part involves creating high fidelity and Involves testing out different solutions at small- scale, rejecting those that will not work and improving the ones that will'
+                },
+            ],
+            reqSpec: 'The Requirement specifications were used to outline possible features of pages. It was derived from the user stories.',
+            sketches: 'At the early stage of my iterations, I resulted to easily disposable sketches using white paper with black pen to generate various design ideas for each page. This allowed easy design iterations of various page structure.',
+            wireframes: "Low-Fidelity Wireframes were created based on the sketches made earlier. It allowed me to have a structured representation of the sketch. I didn't worry about aesthetics and appearance at this point because my goal was to guarantee that the app's layout and features were simple enough for people to utilise. My design personal design process does not allow me to put more effort into wireframes because I easily turned my sketches in to high fidelity",
+            finalDesign: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for us",
+            finalDesignImg: '',
+            conclusion: 'In the conclusion, The project helps me to understand UX process in product development, I was not able to get ethics approval due to Time, which affected me priotizing best features for the users because datas could not be collected. My Futher work on the project will include data gathering,Usability test and Evaluation after I have gotten my ethics approval'
             
         },
     ];

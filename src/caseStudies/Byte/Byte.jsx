@@ -57,7 +57,7 @@ const Byte = () => {
             <div className='list questions'>
               <ul>
                 {questions.map((question, i) => (
-                  <li key={i} >{question}</li>
+                  <li key={i} ><p className='italics'>{question}</p></li>
                 ))}
               </ul>
             </div>
@@ -66,7 +66,7 @@ const Byte = () => {
               <h4>Before we answer those questions, we must understand the cause</h4>
               <ol>
                 {causes.map((causes, i) => (
-                  <li key={i} >{causes}.</li>
+                  <li key={i} ><p>{causes}.</p></li>
                 ))}
               </ol>
             </div>
