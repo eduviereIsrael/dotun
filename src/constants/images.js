@@ -43,15 +43,29 @@ import onboarding7Img from '../assets/onboarding7.png';
 import onboarding8Img from '../assets/onboarding8.png';
 import onboarding9Img from '../assets/onboarding9.png';
 import onboarding10Img from '../assets/onboarding10.png';
+
+import careeSplash from '../assets/caree-splash.png';
+import careeActivation from '../assets/caree-activation.png';
+import careeActive from '../assets/caree-active.png';
+import careeWelcome from '../assets/caree-welcome.png';
+
+
 import careeHomepage from '../assets/caree-homepage.png';
 import careeInfoscreen from '../assets/caree-infoscreen.png';
 import careeMedicines from '../assets/caree-medicines.png';
 import careeTaskpage from '../assets/caree-taskpage.png';
+
+import careeProfile from '../assets/caree-profile.png';
+import careeClockIn from '../assets/caree-clock-in.png';
+import careeChat from '../assets/caree-chat.png';
+
+
 import careeDD from '../assets/careeDD.png';
 import careeCompAdv from '../assets/comp-analysis.png';
 import reqSpecImg from '../assets/req-specification.png';
 import cSketch1 from '../assets/caree-sketch1.png';
 import cSketch2 from '../assets/caree-sketch2.png';
+import cDesktopImg from '../assets/caree-dash-b.png';
 
 
 export const marquee = [
@@ -174,7 +188,15 @@ export const images = {
     careeTaskpage,
     careeDD,
     careeCompAdv,
-    reqSpecImg
+    reqSpecImg,
+    cDesktopImg,
+    careeSplash,
+    careeActivation,
+    careeActive,
+    careeWelcome,
+    careeProfile,
+    careeClockIn,
+    careeChat
 }
 
 // export default images;

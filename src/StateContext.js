@@ -19,7 +19,14 @@ export const StateContext = ({children}) => {
         careeHomepage,
         careeInfoscreen,
         careeMedicines,
-        careeTaskpage} = images;
+        careeTaskpage,
+        careeSplash,
+        careeActivation,
+        careeActive,
+        careeWelcome,
+        careeProfile,
+        careeClockIn,
+        careeChat} = images;
     
     const bContactImg = <HiFiScreen img = {byteContactImg} screenName = 'Contact' />
     const bHomepageImg = <HiFiScreen img = {byteHomepageImg} screenName = 'Homepage' />
@@ -36,9 +43,20 @@ export const StateContext = ({children}) => {
     const bFinalScreens = [...bSplashScreens, ...bOnboardingScreens, bHomepageImg, bContactImg, bAmountImg, bPaymentImg];
     
     const cHomepageImg = <HiFiScreen img = {careeHomepage} screenName='Homepage' />
-    const cInfoscreenImg = <HiFiScreen img = {careeInfoscreen} screenName='Info Screen' />
+    const cInfoscreenImg = <HiFiScreen img = {careeInfoscreen} screenName='Info screen' />
     const cMedicinesImg = <HiFiScreen img = {careeMedicines} screenName='Medicines' />
-    const cTaskpageImg = <HiFiScreen img = {careeTaskpage} screenName='Task Page' />
+    const cTaskpageImg = <HiFiScreen img = {careeTaskpage} screenName='Task page' />
+    const cSplashImg = <HiFiScreen img = {careeSplash} screenName='Splash screen' />
+    const cActivationImg = <HiFiScreen img = {careeActivation} screenName='Activation screen' />
+    const cActiveImg = <HiFiScreen img = {careeActive} screenName='Activation active' />
+    const cWelcomeImg = <HiFiScreen img = {careeWelcome} screenName='Welcome page' />
+    const cProfileImg = <HiFiScreen img = {careeProfile} screenName='Profile screen' />
+    const cMmodalImg = <HiFiScreen img={careeMedicines} screenName='Medicine Modal' />
+    const cClockInImg = <HiFiScreen img = {careeClockIn} screenName='Clock in modal' />
+    const cChatImg = <HiFiScreen img = {careeChat} screenName='Chat screen' />
+
+    const cFinalScreens = [cSplashImg, cActivationImg, cActiveImg, cWelcomeImg, cHomepageImg, cInfoscreenImg, cMedicinesImg, cTaskpageImg, cProfileImg, cMmodalImg, cClockInImg, cChatImg]
+
 
     const CareeIntroMockups = [
         cHomepageImg,
@@ -131,7 +149,7 @@ export const StateContext = ({children}) => {
             sketches: 'At the early stage of my iterations, I resulted to easily disposable sketches using white paper with black pen to generate various design ideas for each page. This allowed easy design iterations of various page structure.',
             wireframes: "Low-Fidelity Wireframes were created based on the sketches made earlier. It allowed me to have a structured representation of the sketch. I didn't worry about aesthetics and appearance at this point because my goal was to guarantee that the app's layout and features were simple enough for people to utilise. My design personal design process does not allow me to put more effort into wireframes because I easily turned my sketches in to high fidelity",
             finalDesign: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for us",
-            finalDesignImg: '',
+            finalDesignImg: cFinalScreens,
             conclusion: 'In the conclusion, The project helps me to understand UX process in product development, I was not able to get ethics approval due to Time, which affected me priotizing best features for the users because datas could not be collected. My Futher work on the project will include data gathering,Usability test and Evaluation after I have gotten my ethics approval'
             
         },

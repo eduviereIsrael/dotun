@@ -13,3 +13,14 @@
 .carousel-img {
     margin: 0 30px;
 }
+@media screen and (min-width: 800px){
+    .mockups {
+
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px 100px 30px 100px;
+    }
+    .carousel-img {
+        margin: 10px 10px;
+    }
+}

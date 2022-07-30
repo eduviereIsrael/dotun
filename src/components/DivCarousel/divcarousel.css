@@ -10,3 +10,11 @@
     padding: 50px 25px 30px 25px;
     margin: 0;
 }
+
+@media screen and (min-width: 800px){
+    .div-carousel {
+        flex-wrap: wrap;
+        padding: 50px 100px 30px 100px;
+    }
+    
+}

@@ -12,7 +12,13 @@ const Caree = () => {
 
   const caree = {...project[1]}
 
-  const {careeHomepage,careeInfoscreen, careeDD, careeCompAdv, reqSpecImg} = images;
+  const {
+    careeHomepage,
+    careeInfoscreen,
+    careeDD,
+    careeCompAdv,
+    reqSpecImg,
+    cDesktopImg} = images;
 
 
   const {
@@ -29,7 +35,8 @@ const Caree = () => {
     sketches,
     wireframes,
     finalDesign,
-    conclusion} = caree
+    conclusion,
+    finalDesignImg} = caree
   return (
     <div className='project_container'>
 
@@ -93,16 +100,29 @@ const Caree = () => {
 
       </div>
 
-      <ImgCarousel carousel={careeLoFiSketch} width='400px' class='c-lofi-sketch' />
+      
+
+      <ImgCarousel carousel={careeLoFiSketch} width='350px' class='c-lofi-sketch' />
         
       <div className='case-study-cont'>
         <Text header='Wireframes' text={wireframes} class='wireframes' />
 
         <Text header='Final Design' text={finalDesign} class='final-design' />
+      </div>
+
+      <DivCarousel>
+        {finalDesignImg.map((item, i) => (
+          <div key = {i}>{item}</div>
+          ))}
+      </DivCarousel>
+
+      <div className='case-study-cont'>
+        <img src={cDesktopImg} alt={cDesktopImg} className="project-img caree-dashboard"/>
 
         <Text header='Conclusion and Further Work' text={conclusion} class='conclusion' />
 
       </div>
+      
     </div>
   )
 }
