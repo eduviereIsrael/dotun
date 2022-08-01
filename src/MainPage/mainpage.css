@@ -183,7 +183,8 @@ h2{
 }
 
 .small-text{
-    font-size: 13px;
+    font-size: 15px;
+    letter-spacing: .5px;
     color: #fff;
     text-align: left;
 }

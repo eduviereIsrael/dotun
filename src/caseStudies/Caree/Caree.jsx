@@ -70,7 +70,9 @@ const Caree = () => {
 
         <img src={careeDD} alt={careeDD} className='project-img caree-dd' />
 
-        <p className='paragraph'>The Double Diamond Framework by the British Design Council permits me to settle on purposeful plan choices by investigating different choices (divergent thinking), while at the same time approving more grounded ones and removing the more vulnerable ones (convergent thinking). </p>
+        <p className='paragraph'>
+          The Double Diamond Framework by the British Design Council permits me to settle on purposeful plan choices by investigating different choices (divergent thinking), while at the same time approving more grounded ones and removing the more vulnerable ones (convergent thinking). 
+        </p>
 
         <div className='list'>
           <p>I utilize this equivalent way to  address two things:</p>

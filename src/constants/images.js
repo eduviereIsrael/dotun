@@ -67,6 +67,11 @@ import cSketch1 from '../assets/caree-sketch1.png';
 import cSketch2 from '../assets/caree-sketch2.png';
 import cDesktopImg from '../assets/caree-dash-b.png';
 
+import zapmedx from '../assets/zapmedx.png'
+import zWaiting from '../assets/z-waiting-list.png'
+import zLanding from '../assets/z-landing-page.png'
+import zAdmin from '../assets/z-admin-page.png'
+import zStyleGuide from '../assets/z-style-guide.png'
 
 export const marquee = [
     {
@@ -101,6 +106,12 @@ export const marquee = [
         name: 'Adobe Xd',
         img: xd
     },
+]
+
+export const zFinalDesign = [
+    zWaiting,
+    zLanding,
+    zAdmin
 ]
 
 export const socials = [
@@ -182,6 +193,7 @@ export const images = {
     byteHomepageImg,
     bytePaymentImg,
     byteAmountImg,
+
     careeHomepage,
     careeInfoscreen,
     careeMedicines,
@@ -196,7 +208,10 @@ export const images = {
     careeWelcome,
     careeProfile,
     careeClockIn,
-    careeChat
+    careeChat,
+
+    zapmedx,
+    zStyleGuide
 }
 
 // export default images;

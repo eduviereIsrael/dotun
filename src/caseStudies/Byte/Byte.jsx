@@ -28,12 +28,12 @@ const Byte = () => {
     wireframes,
     finalDesignImg,
     successMetrics,
-    team} = byte;
+    team,
+    solution} = byte;
 
-    // console.log(finalDesignImg)
 
   return (
-    <div className='project_container'>
+    <div className='project_container byte-pc'>
       <div className='banner' style={{background: bgColor}}>
         <div className='banner-intro'>
           <h1> 
@@ -49,7 +49,6 @@ const Byte = () => {
 
       <ImgCarousel carousel={introMockups} width='150px' class='intromMockups'/>
       <div className='case-study-cont'>
-        <div className='sec-theme'>
             <Text header='Introduction' text={introduction} class='introduction'/>
 
             <Text header='Problem Definition' text={problemDef} class='problem-def'/>
@@ -71,6 +70,20 @@ const Byte = () => {
               </ol>
             </div>
 
+            <Text header='Solution' text={solution} class='solution' />
+
+            <div className='list'>
+              <ol>
+                <li><p>Reduce payment downtime, experince fast transfer time.</p></li>
+                <li><p>Go beyond just payment with peers.</p></li>
+                <li><p>Save money on transaction and monthly fees.</p></li>
+              </ol>
+            </div>
+
+            <p className='paragraph'>To , archieve the above solution, We must do without Nigeria Inter-Bank settlement system for our peer payment.</p>
+
+            <p className='paragraph'>How can we archive this?</p>
+
             <Text header='Ideation' text={ideation} class='ideation'/>
 
             <Text header='Competitive Advantage' text={compAdv} class='competitive-adv'/>
@@ -83,7 +96,6 @@ const Byte = () => {
 
             
  
-        </div>
       </div>
 
       <ImgCarousel carousel={loFiSketchesImg} width='200px' class='byte-lo-fi-imgs' />

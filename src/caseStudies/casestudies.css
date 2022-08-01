@@ -21,8 +21,6 @@
     border-radius: 30px;
 }
 
-
-
 .p{
     padding: 0px 20px;
 }
@@ -73,10 +71,10 @@
 }
 
 
-.sec-theme{
+/* .sec-theme{
     background-color: #fff;
     color: #000;
-}
+} */
 
 /* Main case study */
 
@@ -84,7 +82,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    padding: 0 20px;
+    padding: 20px 20px;
     text-align: left;
 }
 .list ul {
@@ -95,8 +93,15 @@
     padding: 0 20px;
 }
 
+.list li {
+    margin: 0;
+    padding: 0;
+}
+
 .questions {
     margin-bottom: 40px;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 .project-img{
     width: 100%;

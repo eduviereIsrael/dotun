@@ -1,0 +1,17 @@
+.zapmedx-pc .banner-img1{
+    position: absolute;
+    width: 250px;
+    top: -60px;
+    right: 30px;
+    transform: rotate(-20deg);
+}
+.zapmedx-pc .banner-img2{
+    position: absolute;
+    width: 250px;
+    bottom: -20px;
+    left: -70px;
+    transform: rotate(-20deg);
+}
+.zapmedx-csc{
+    padding-top: 70px;
+}

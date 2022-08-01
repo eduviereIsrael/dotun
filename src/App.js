@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage/Mainpage';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
-import { Byte, Caree } from './caseStudies';
+import { Byte, Caree, Zapmedx } from './caseStudies';
 import WrapScroll from './WrapScrroll';
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
             <Routes>
               <Route path = "/" element = {<MainPage />} />
               <Route path = "/byte" element = {<Byte />} />
-              <Route path = "/Caree" element = {<Caree />} />
+              <Route path = "/caree" element = {<Caree />} />
+              <Route path = "/zapmedx" element = {<Zapmedx />} />
             </Routes>
           {/* <MainPage /> */}
           <Footer />

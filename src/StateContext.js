@@ -16,6 +16,7 @@ export const StateContext = ({children}) => {
         byteHomepageImg,
         bytePaymentImg,
         byteAmountImg,
+
         careeHomepage,
         careeInfoscreen,
         careeMedicines,
@@ -26,7 +27,9 @@ export const StateContext = ({children}) => {
         careeWelcome,
         careeProfile,
         careeClockIn,
-        careeChat} = images;
+        careeChat,
+    
+        zapmedx} = images;
     
     const bContactImg = <HiFiScreen img = {byteContactImg} screenName = 'Contact' />
     const bHomepageImg = <HiFiScreen img = {byteHomepageImg} screenName = 'Homepage' />
@@ -71,10 +74,10 @@ export const StateContext = ({children}) => {
         {
             name: 'Byte',
             role: ['UI/UX Design', 'Interaction', 'Prototype'],
-            desc: '',
             img: Byte,
             linkUrl: '/byte',
             intro: 'Connecting everyone Through payment.',
+            cardDesc: 'Connecting everyone Through payment. Byte allow users pay and recieve money with phone number, byte tag and email in Nigeria.',
             introLong: 'Connecting everyone Through payment. Byte allow users pay and recieve money with phone number, byte tag and email in Nigeria.',
             tool: 'Figma',
             year: '2020',
@@ -84,6 +87,7 @@ export const StateContext = ({children}) => {
             problemDef: 'Payment downtime with Nigeria banks rise by 32% in Nigeria. meaning for every 10 mobile money transfer, only 6 gets to it destination. Customers need convenience, support and faster payment options.',
             questions: ['How can we make peer payment more reliable and fast in Nigeria? ', 'How can we eliminate downtime in our banking system?', 'How can we make peer payment more fun to use? '],
             causes: ['Lack of adequate infrastructure', 'Inter bank transaction is handle by NIBSS', 'poor user expirence', 'Public acceptability'],
+            solution: 'Byte aims to connect everyone through payment, by enable users to pay anyone with an email, phone number or bytetag, using their linked bank account or credit card and provide following',
             ideation: 'Right from the beginning and brainstorming stage for byte, we wanted a platform that makes payment more fun while maintaining its speed and reliability. One of the ways is to do  without traditional bank account and bank name type of payment. Paying users , friends , family with Phone Number and Email will be more fun. With that, we thicked our  second box. Since payment is all done with mobile number or email or byte tag, we have successfully bypass the Nigeria Inter-Bank settlement system for our peer payment which is mostly the cause of down payment because of its poor infrastructure.',
             compAdv: 'I know byte is not the only startup in Nigeria trying to tackle the down time payment issues and for me to construct a concise and solid foundation for byte, I had to see what and who are the competitors. As at the time of this report, We only have few startups tackling same issues which are Abeg and Barter.  I evaluated several features deemed vital from user surveys and identified which ones byte could capitalize on to have a leg up over other applications.',
             compAnalysisImg: byteCompAdv,
@@ -112,10 +116,10 @@ export const StateContext = ({children}) => {
         {
             name: 'Caree',
             role: ['UI/UX Design', 'Interaction', 'Prototype'],
-            desc: '',
             img: Caree,
             linkUrl: '/caree',
             intro: 'Application for better living',
+            cardDesc: 'Caree  app will make a Carer job more flexible and effective in the UK, meaning with caree app, Care homes and carer can look after patients and clients effectively .........',
             introLong: 'Smart Care Mobile App  for Personalized Care and Support Planning',
             tool: 'Figma',
             year: '2022',
@@ -151,6 +155,45 @@ export const StateContext = ({children}) => {
             finalDesign: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for us",
             finalDesignImg: cFinalScreens,
             conclusion: 'In the conclusion, The project helps me to understand UX process in product development, I was not able to get ethics approval due to Time, which affected me priotizing best features for the users because datas could not be collected. My Futher work on the project will include data gathering,Usability test and Evaluation after I have gotten my ethics approval'
+            
+        },
+        {
+            name: 'ZapmedX',
+            role: ['UI Design', 'Prototype'],
+            desc: '',
+            img: zapmedx,
+            linkUrl: '/zapmedx',
+            intro: 'Improving community healthand wellness.',
+            cardDesc: 'User can get medicines at doorstep, Pick up blood samples for test and get result at home, also book an instant consult online',
+            introLong: 'Zapmedx is a fast-paced, growing healthcare platform, passionate about improving community health and wellness.',
+            tool: 'Figma',
+            year: '2021',
+            introduction: 'Zapmedx is a fast-paced, growing healthcare platform, passionate about improving community health and wellness.',
+            bgColor: '#565CE4',
+            problemDef: 'Access to medicines for Nigerians remains a critical factor influencing national healthcare. Currently, life expectancy at birth is under 60 years and is representative of other poor health indices.Nigeria as a developing country is faced with the challenge of a weak healthcare system and inefficient drug supply chain management; this has been a major concern in the treatment of diseases and a major hindrance to the attainment of the universal health coverage and Sustainable Development Goal 3, which aim to ensure healthy lives and well-being for all. Access to medicine is an important component of good healthcare systems.',
+            questions: null,
+            ideation: 'The wireframe provided by the team helps and make my work easier even though alot was change while iteratingfor better user experience.',
+            solution: 'ZapmedX want to change the way Nigerian buy medicines  and consultation online. Research and wireframes for Zapmedx has been concluded before I begin my assigment as a UI designer in ZapmedX. Web application was designed for the following features',
+            finalDesign: "Creating a higher fidelity however the still genuinely starter variant of our wireframes, I had the option to figure out a portion of the specialized issues that wouldn't be reasonable for zapmedx.",
+            team: [
+                {
+                    name: 'Yvonne',
+                    role: 'Founder'
+                },
+                {
+                    name: 'TJP',
+                    role: 'Product Owner'
+                },
+                {
+                    name: 'Ben',
+                    role: 'Backend Engineer'
+                },
+                {
+                    name: 'Emmanuel',
+                    role: 'Frontend Engineer'
+                },
+            ]
+            
             
         },
     ];
