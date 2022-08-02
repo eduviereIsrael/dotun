@@ -5,6 +5,7 @@ import '../casestudies.css'
 import './zapmedx.css';
 import { useStateContext } from '../../StateContext';
 import { Team, Text } from '../../components';
+import AnimatePage from '../../AnimatePage';
 
 const Zapmedx = () => {
 
@@ -29,7 +30,8 @@ const Zapmedx = () => {
 
 
   return (
-    <div className='project_container zapmedx-pc'>
+    <AnimatePage>
+      <div className='project_container zapmedx-pc'>
         <div className='banner' style={{background: bgColor}}>
         <div className='banner-intro'>
           <h1> 
@@ -122,6 +124,8 @@ const Zapmedx = () => {
             
         </div>
     </div>
+    </AnimatePage>
+    
   )
 }
 
