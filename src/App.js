@@ -8,6 +8,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import { Byte, Caree, Zapmedx } from './caseStudies';
 import WrapScroll from './WrapScrroll';
+import { About } from './Pages';
 
 function App() {
   console.log(Route)
@@ -20,6 +21,7 @@ function App() {
           <Header />
             <Routes>
               <Route path = "/" element = {<MainPage />} />
+              <Route path = "/about" element = {<About />} />
               <Route path = "/byte" element = {<Byte />} />
               <Route path = "/caree" element = {<Caree />} />
               <Route path = "/zapmedx" element = {<Zapmedx />} />
