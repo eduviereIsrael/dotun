@@ -2,7 +2,7 @@
     background-color: #000;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     margin: 30px 0px 0px 0px;
     padding: 50px 50px 0 50px;
@@ -19,16 +19,18 @@
     text-align: left;
 }
 .card-intro{
-    width: 100%;
+    width: 70%;
+    margin: 30px 0;
 }
 
 h3{
     text-align: left;
 }
+
 .card-img{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     /* height: 40px; */
     /* background-color: yellow; */
@@ -36,5 +38,53 @@ h3{
     
 }
 .card-img > img {
-    width: 100%;
+    width: 70%;
+}
+@media screen and (min-width: 800px){
+    .card {
+        box-sizing: border-box;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 10px;
+        padding: 0;
+        width: 45%;
+        overflow: hidden;
+        height: 650px;
+        /* max-width: 700px; */
+        border: none;
+        border-radius: 15px;
+    }
+
+    .card-intro h3{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease 0s;
+    }
+    .card-intro p{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease .1s;
+    }
+    .card-intro .primary-btn{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease .2s;
+
+    }
+
+    .card:hover h3{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .card:hover p{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .card:hover .primary-btn{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }

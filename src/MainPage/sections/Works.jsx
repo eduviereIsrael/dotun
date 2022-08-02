@@ -49,16 +49,7 @@ const Works = () => {
               </div>
             </div>
             
-            <div className='card'>
-              <div className='card-intro'>
-                  <h3 className='gradient'>{project[1].name}(UI/UX Design, Interaction, Prototype)</h3>
-                  <p className='small-text'>short description</p>
-                  <Link to={project[1].linkUrl} className='primary-btn'>View</Link>
-              </div>
-              <div className='card-img'>
-                <img src={project[1].img} alt={project[1].name} />
-              </div>
-            </div>
+            
             {/* <ProjectCard /> */}
         </div>
         
