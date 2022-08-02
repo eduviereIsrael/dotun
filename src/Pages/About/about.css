@@ -28,6 +28,7 @@
     font-size: 32px;
     font-weight: bold;
     font-family: 'Grifter', sans-serif;
+    text-align: left;
 }
 .pers-details{
     display: flex;
