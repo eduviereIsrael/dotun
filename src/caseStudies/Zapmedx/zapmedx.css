@@ -9,7 +9,7 @@
     position: absolute;
     width: 250px;
     bottom: -40px;
-    left: -70px;
+    left: -120px;
     transform: rotate(-20deg);
 }
 .zapmedx-csc{
@@ -27,7 +27,7 @@
         position: absolute;
         width: 400px;
         bottom: -40px;
-        left: -70px;
+        left: -150px;
         transform: rotate(-20deg);
     }
 }
