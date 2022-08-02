@@ -1,17 +1,33 @@
 .zapmedx-pc .banner-img1{
     position: absolute;
     width: 250px;
-    top: -60px;
+    top: -70px;
     right: 30px;
     transform: rotate(-20deg);
 }
 .zapmedx-pc .banner-img2{
     position: absolute;
     width: 250px;
-    bottom: -20px;
+    bottom: -40px;
     left: -70px;
     transform: rotate(-20deg);
 }
 .zapmedx-csc{
     padding-top: 70px;
+}
+
+@media screen and (min-width: 800px){
+    .zapmedx-pc .banner-img1{
+        width: 400px;
+        top: -70px;
+        right: 30px;
+        transform: rotate(-20deg);
+    }
+    .zapmedx-pc .banner-img2{
+        position: absolute;
+        width: 400px;
+        bottom: -40px;
+        left: -70px;
+        transform: rotate(-20deg);
+    }
 }

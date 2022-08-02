@@ -13,6 +13,7 @@ const Byte = () => {
   const {
     name, 
     intro, 
+    introLong, 
     bgColor, 
     introMockups, 
     introduction, 
@@ -29,7 +30,9 @@ const Byte = () => {
     finalDesignImg,
     successMetrics,
     team,
-    solution} = byte;
+    solution,
+    tool,
+    year} = byte;
 
 
   return (
@@ -39,7 +42,26 @@ const Byte = () => {
           <h1> 
             {name}
           </h1>
-          <p>{intro}</p>
+          <p className='mobile-view'>{intro}</p>
+          <p className='desktop-view dv-p'>{introLong}</p>
+        <div className='line desktop-view'></div>
+        <div className='banner-footer desktop-view'>
+          <div className='role'>
+            <p>My Role</p>
+            <p>UI/UX Design, Prototyping, User Testing, Interaction Design</p>
+          </div>
+          <div className='year-tool'>
+            <div className='tool'>
+              <p>Tools</p>
+              <p>{tool}</p>
+            </div>
+            <div className='year'>
+              <p>Year</p>
+              <p>{year}</p>
+            </div>
+          </div>
+        </div>
+
         </div>
         <div>
           <img src={introMockups[0]} alt={`${name} banner-img`} className='banner-img1' />
@@ -47,7 +69,7 @@ const Byte = () => {
         </div>
       </div>
 
-      <ImgCarousel carousel={introMockups} width='150px' class='intromMockups'/>
+      <ImgCarousel carousel={introMockups} width='240px' class='intromMockups'/>
       <div className='case-study-cont'>
             <Text header='Introduction' text={introduction} class='introduction'/>
 

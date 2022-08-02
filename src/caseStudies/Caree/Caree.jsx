@@ -24,6 +24,7 @@ const Caree = () => {
   const {
     name, 
     intro, 
+    introLong, 
     bgColor, 
     introMockups, 
     introduction, 
@@ -36,16 +37,37 @@ const Caree = () => {
     wireframes,
     finalDesign,
     conclusion,
-    finalDesignImg} = caree
+    finalDesignImg,
+    tool,
+    year} = caree
   return (
     <div className='project_container'>
 
-      <div className='banner' style={{background: bgColor}}>
+<div className='banner' style={{background: bgColor}}>
         <div className='banner-intro'>
           <h1> 
             {name}
           </h1>
-          <p>{intro}</p>
+          <p className='mobile-view'>{intro}</p>
+          <p className='desktop-view dv-p'>{introLong}</p>
+        <div className='line desktop-view'></div>
+        <div className='banner-footer desktop-view'>
+          <div className='role'>
+            <p>My Role</p>
+            <p>UI/UX Design, Interaction, Prototype</p>
+          </div>
+          <div className='year-tool'>
+            <div className='tool'>
+              <p>Tools</p>
+              <p>{tool}</p>
+            </div>
+            <div className='year'>
+              <p>Year</p>
+              <p>{year}</p>
+            </div>
+          </div>
+        </div>
+
         </div>
         <div>
           <img src={careeHomepage} alt={`${name} banner-img`} className='banner-img1' />

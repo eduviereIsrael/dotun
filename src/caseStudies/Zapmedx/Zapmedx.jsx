@@ -13,6 +13,7 @@ const Zapmedx = () => {
   const {
     name, 
     intro, 
+    introLong, 
     bgColor, 
     img,
     introduction,
@@ -20,7 +21,9 @@ const Zapmedx = () => {
     ideation,
     solution,
     finalDesign,
-    team} = zapmedx;
+    team,
+    year,
+    tool} = zapmedx;
 
     // console.log(introMockups)
 
@@ -32,12 +35,31 @@ const Zapmedx = () => {
           <h1> 
             {name}
           </h1>
-          <p>{intro}</p>
+          <p className='mobile-view'>{intro}</p>
+          <p className='desktop-view dv-p'>{introLong}</p>
+        <div className='line desktop-view'></div>
+        <div className='banner-footer desktop-view'>
+          <div className='role'>
+            <p>My Role</p>
+            <p>UI Design, Prototype</p>
+          </div>
+          <div className='year-tool'>
+            <div className='tool'>
+              <p>Tools</p>
+              <p>{tool}</p>
+            </div>
+            <div className='year'>
+              <p>Year</p>
+              <p>{year}</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src={img} alt={`${name} banner-img`} className='banner-img1' />
-          <img src={img} alt={`${name} banner-img`} className='banner-img2' />
+
         </div>
+            <div>
+            <img src={img} alt={`${name} banner-img`} className='banner-img1' />
+            <img src={img} alt={`${name} banner-img`} className='banner-img2' />
+            </div>
         </div>
         <div className='case-study-cont zapmedx-csc'>
             <img src={img} alt='zapmedx-img' className='project-img'/>
