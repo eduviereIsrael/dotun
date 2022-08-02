@@ -43,7 +43,7 @@ const Caree = () => {
   return (
     <div className='project_container'>
 
-<div className='banner' style={{background: bgColor}}>
+      <div className='banner' style={{background: bgColor}}>
         <div className='banner-intro'>
           <h1> 
             {name}

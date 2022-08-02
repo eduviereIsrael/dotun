@@ -72,6 +72,7 @@ import zWaiting from '../assets/z-waiting-list.png'
 import zLanding from '../assets/z-landing-page.png'
 import zAdmin from '../assets/z-admin-page.png'
 import zStyleGuide from '../assets/z-style-guide.png'
+import dotun from '../assets/dotun.png'
 
 export const marquee = [
     {
@@ -211,7 +212,8 @@ export const images = {
     careeChat,
 
     zapmedx,
-    zStyleGuide
+    zStyleGuide,
+    dotun
 }
 
 // export default images;
