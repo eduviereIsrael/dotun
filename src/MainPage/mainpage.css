@@ -274,3 +274,12 @@ h3{
     }
     
 }
+
+@media screen and (min-width: 800px){
+    .hero-h1-text{
+      font-size: 80px;
+      font-family: 'Grifter', sans-serif;
+      margin: 0 0 70px 0;
+    }
+
+  }

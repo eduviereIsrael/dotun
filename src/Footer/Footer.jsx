@@ -1,7 +1,8 @@
 import React from 'react';
 import './footer.css'
-import { socials } from '../constants/images';
+import { socials, images } from '../constants/images';
 
+const {arrow} = images
 
 const Footer = () => {
   return (
@@ -18,18 +19,27 @@ const Footer = () => {
               <h6>{socials[0].name}</h6>
             </div>
           </a>
+
+          <img src={arrow} alt='arrow' className='arrow desktop-view' />
+
           <a href="/" target="_blank">
             <div className='icon-div'>
               <img src={socials[1].img} alt="" />
               <h6>{socials[1].name}</h6>
             </div>
           </a>
+
+          <img src={arrow} alt='arrow' className='arrow desktop-view' />
+
           <a href="/" target="_blank">
             <div className='icon-div'>
               <img src={socials[2].img} alt="" />
               <h6>{socials[2].name}</h6>
             </div>
           </a>
+
+          <img src={arrow} alt='arrow' className='arrow desktop-view' />
+
           <a href="/" target="_blank">
             <div className='icon-div'>
               <img src={socials[3].img} alt="" />
@@ -40,7 +50,7 @@ const Footer = () => {
 
       </div>
       <div className='contact-email'>
-        <a href="mailto:adedotunayodimeji@gmail.com">adedotunayodimeji@gmail.com</a>
+        <span><a href="mailto:adedotunayodimeji@gmail.com" className='email-link'>adedotunayodimeji@gmail.com</a></span>
         <p className='small-text'>@2022 Adedotun Ayodimeji</p>
       </div>
     </div>

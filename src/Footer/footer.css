@@ -49,3 +49,21 @@
     align-items: center;
     text-align: center;
 }
+
+.email-link {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+@media screen and (min-width: 800px){
+    .social-cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-items: flex-start;
+    }
+    .icon-div {
+        margin: 0 20px 0px 20px;
+    }
+}

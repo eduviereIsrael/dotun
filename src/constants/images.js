@@ -67,12 +67,16 @@ import cSketch1 from '../assets/caree-sketch1.png';
 import cSketch2 from '../assets/caree-sketch2.png';
 import cDesktopImg from '../assets/caree-dash-b.png';
 
-import zapmedx from '../assets/zapmedx.png'
-import zWaiting from '../assets/z-waiting-list.png'
-import zLanding from '../assets/z-landing-page.png'
-import zAdmin from '../assets/z-admin-page.png'
-import zStyleGuide from '../assets/z-style-guide.png'
-import dotun from '../assets/dotun.png'
+import zapmedx from '../assets/zapmedx.png';
+import zWaiting from '../assets/z-waiting-list.png';
+import zLanding from '../assets/z-landing-page.png';
+import zAdmin from '../assets/z-admin-page.png';
+import zStyleGuide from '../assets/z-style-guide.png';
+import dotun from '../assets/dotun.png';
+import arrow from '../assets/arrow-right.svg'
+
+
+
 
 export const marquee = [
     {
@@ -185,6 +189,7 @@ export const images = {
     hambuger,
     hambugerx,
     herobgmobile,
+    arrow,
     Byte,
     Caree,
     textHeaderIcon,
