@@ -5,7 +5,7 @@ import { socials } from '../constants/images';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' id='contact'>
       <p>
         Intrested in working together?<br/>
         I'd love to hear from you.

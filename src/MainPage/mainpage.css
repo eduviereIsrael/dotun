@@ -211,6 +211,7 @@ h3{
 
 
 
+
 /* Responsive style */
 
 @media screen and (min-width: 760px){
@@ -230,6 +231,37 @@ h3{
         border: none;
         border-radius: 15px;
     }
+
+    .card-intro h3{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease 0s;
+    }
+    .card-intro p{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease .1s;
+    }
+    .card-intro .primary-btn{
+        transform: translateX(80px);
+        opacity: 0;
+        transition: all .3s ease .2s;
+
+    }
+
+    .card:hover h3{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .card:hover p{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .card:hover .primary-btn{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
     .hero-img{
         height: 55vh;
         width: 100%;

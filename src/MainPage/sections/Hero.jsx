@@ -9,7 +9,7 @@ const Hero = () => {
                 <span className='gradient'>Design </span><span className='for'>For </span><span className='all'>All</span>
             </h1>
             <p className='hero-text'>
-                I am a user-experince and Interface designer that put real people 
+                I am a user-experience and Interface designer that put real people 
                 at the center of development process
             </p>
             <a href="#projects" className='primary-btn'>Go to Projects</a>
