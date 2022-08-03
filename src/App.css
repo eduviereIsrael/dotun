@@ -52,14 +52,20 @@ h1{
 h2{
   font-size: 24px;
   font-family: 'Grifter';
+  font-family: 'Grifter', sans-serif;
+
 }
 h3{
   font-size: 20px;
   font-weight: 700;
+  font-family: 'Grifter', sans-serif;
+
 }
 h4 {
   font-size: 19px;
   font-weight: 600;
+  font-family: 'Grifter', sans-serif;
+
 }
 p{
   /* font-family: ; */
