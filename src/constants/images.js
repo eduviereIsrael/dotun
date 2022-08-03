@@ -73,7 +73,8 @@ import zLanding from '../assets/z-landing-page.png';
 import zAdmin from '../assets/z-admin-page.png';
 import zStyleGuide from '../assets/z-style-guide.png';
 import dotun from '../assets/dotun.png';
-import arrow from '../assets/arrow-right.svg'
+import arrow from '../assets/arrow-right.svg';
+import byteTwo from '../assets/byte2.0.png'
 
 
 
@@ -199,6 +200,8 @@ export const images = {
     byteHomepageImg,
     bytePaymentImg,
     byteAmountImg,
+
+    byteTwo,
 
     careeHomepage,
     careeInfoscreen,

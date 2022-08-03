@@ -8,8 +8,9 @@ const Works = () => {
   const project = useStateContext();
 
   const byte = {...project[0]}
-  const caree = {...project[1]}
-  const zapmedx = {...project[2]}
+  const byteOne = {...project[1]}
+  const caree = {...project[2]}
+  const zapmedx = {...project[3]}
 
   return (
     <div className='works' id='projects'>
@@ -27,6 +28,17 @@ const Works = () => {
               <div className='card-img'>
                 <img src={byte.img} alt={byte.name} />
               </div>
+            </div>
+            <div className='card'>
+              <div className='card-intro'>
+                  <h3 className='gradient'>{byteOne.name}(Design lead, User flow, Flow chat, IA, Wireframes, Prototype, handover)</h3>
+                  <p className='small-text'>{byteOne.cardDesc}</p>
+                  <span to={byteOne.linkUrl} className='primary-btn'>View</span>
+              </div>
+              <div className='card-img'>
+                <img src={byteOne.img} alt={byteOne.name} />
+              </div>
+              <span className='status'>soon</span>
             </div>
             <div className='card'>
               <div className='card-intro'>
