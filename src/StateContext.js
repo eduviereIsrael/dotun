@@ -30,7 +30,7 @@ export const StateContext = ({children}) => {
         careeProfile,
         careeClockIn,
         careeChat,
-    
+        zapCardImg,
         zapmedx} = images;
     
     const bContactImg = <HiFiScreen img = {byteContactImg} screenName = 'Contact' />
@@ -206,6 +206,7 @@ export const StateContext = ({children}) => {
             role: ['UI Design', 'Prototype'],
             desc: '',
             img: zapmedx,
+            cardImg: zapCardImg,
             linkUrl: '/zapmedx',
             intro: 'Improving community healthand wellness.',
             cardDesc: 'User can get medicines at doorstep, Pick up blood samples for test and get result at home, also book an instant consult online',

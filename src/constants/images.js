@@ -74,7 +74,8 @@ import zAdmin from '../assets/z-admin-page.png';
 import zStyleGuide from '../assets/z-style-guide.png';
 import dotun from '../assets/dotun.png';
 import arrow from '../assets/arrow-right.svg';
-import byteTwo from '../assets/byte2.0.png'
+import byteTwo from '../assets/byte2.0.png';
+import zapCardImg from '../assets/zap-card-img.png';
 
 
 
@@ -224,6 +225,7 @@ export const images = {
     careeChat,
 
     zapmedx,
+    zapCardImg,
     zStyleGuide,
     dotun
 }

@@ -21,7 +21,8 @@ const Works = () => {
         <div className='works-container'>
             <div className='card'>
               <div className='card-intro'>
-                  <h3 className='gradient'>{byte.name}(UI/UX Design, Interaction, Prototype)</h3>
+                  <h3 className='gradient'>{byte.name}</h3>
+                  <p className='gradient'>Roles: UI/UX Design, Interaction, Prototype</p>
                   <p className='small-text'>{byte.cardDesc}</p>
                   <Link to={byte.linkUrl} className='primary-btn'>View</Link>
               </div>
@@ -31,7 +32,8 @@ const Works = () => {
             </div>
             <div className='card'>
               <div className='card-intro'>
-                  <h3 className='gradient'>{byteOne.name}(Design lead, User flow, Flow chat, IA, Wireframes, Prototype, handover)</h3>
+                  <h3 className='gradient'>{byteOne.name}</h3>
+                  <p className='gradient'>Roles: Design lead,User flow,IA,Wireframes,Prototype</p>
                   <p className='small-text'>{byteOne.cardDesc}</p>
                   <span to={byteOne.linkUrl} className='primary-btn'>View</span>
               </div>
@@ -42,7 +44,9 @@ const Works = () => {
             </div>
             <div className='card'>
               <div className='card-intro'>
-                  <h3 className='gradient'>{caree.name}(UI/UX Design, Interaction, Prototype)</h3>
+                  <h3 className='gradient'>{caree.name}</h3>
+                  <p className='gradient'>Roles: UI/UX Design,Interaction,Prototype</p>
+
                   <p className='small-text'>{caree.cardDesc}</p>
                   <Link to={caree.linkUrl} className='primary-btn'>View</Link>
               </div>
@@ -52,12 +56,13 @@ const Works = () => {
             </div>
             <div className='card'>
               <div className='card-intro'>
-                  <h3 className='gradient'>{zapmedx.name}(UI Design, Prototype)</h3>
+                  <h3 className='gradient'>{zapmedx.name}</h3>
+                  <p className='gradient'>Roles: UI/UX Design,Prototype</p>
                   <p className='small-text'>{zapmedx.cardDesc}</p>
                   <Link to={zapmedx.linkUrl} className='primary-btn'>View</Link>
               </div>
               <div className='card-img'>
-                <img src={zapmedx.img} alt={zapmedx.name} />
+                <img src={zapmedx.cardImg} alt={zapmedx.name} />
               </div>
             </div>
             
