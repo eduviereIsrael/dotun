@@ -1,6 +1,6 @@
-/* * {
-  scroll-behavior: smooth;
-} */
+* {
+  box-sizing: border-box;
+}
 
 @font-face {
   font-family: 'Grifter';
@@ -8,13 +8,16 @@
 }
 
 .App {
+  box-sizing: border-box;
   text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  /* width: 100%; */
+  justify-content: center;
+  /* background-color: red; */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 
