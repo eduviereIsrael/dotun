@@ -4,8 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 80px 80px;
-    width: 90%;
+    
+    margin: 0;  
+    width: 100%;
     max-width: 1800px;
     align-self: center;
     background-color: #fff;
@@ -108,6 +109,8 @@
     }
     .project_container{
         border-radius: 30px;
+        width: 90%;
+        
     }
     .banner-intro {
         box-sizing: border-box;

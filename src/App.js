@@ -11,8 +11,7 @@ import WrapScroll from './WrapScrroll';
 import { About } from './Pages';
 
 function App() {
-  console.log(Route)
-  console.dir(Route)
+
   return (
     // <BrowserRouter>
     <StateContext>
