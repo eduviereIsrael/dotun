@@ -11,7 +11,7 @@ const Caree = () => {
 
   const project = useStateContext();
 
-  const caree = {...project[1]}
+  const caree = {...project[2]}
 
   const {
     careeHomepage,

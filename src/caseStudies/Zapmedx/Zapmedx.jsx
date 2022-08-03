@@ -10,7 +10,7 @@ import AnimatePage from '../../AnimatePage';
 const Zapmedx = () => {
 
   const project = useStateContext();
-  const zapmedx = {...project[2]};
+  const zapmedx = {...project[3]};
   const {
     name, 
     intro, 
