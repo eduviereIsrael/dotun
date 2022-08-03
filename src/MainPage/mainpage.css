@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin: 100px 0 50px 0;
 }
 .hero-h1-text{
     font-size: 32px;
@@ -276,6 +276,10 @@ h3{
         background-size: cover;
         background-repeat: no-repeat;
         /* background-position: center; */
+    }
+    .hero-intro {
+    margin: 150px 0 50px 0;
+
     }
     .hero-h1-text{
       font-size: 80px;
