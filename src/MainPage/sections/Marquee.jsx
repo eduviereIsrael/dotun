@@ -15,11 +15,11 @@ const Marquee = () => {
                 
                 {marquee.map((item, i) => (
                     <div className='marquee-item' key={i}>
-                    <div className='marquee-img'>
-                        <img src={item.img} alt={item.name} />
+                        <div className='marquee-img'>
+                            <img src={item.img} alt={item.name} />
+                        </div>
+                        <div className='marquee-text'>{item.name}</div>
                     </div>
-                    <div className='marquee-text'>{item.name}</div>
-                </div>
                 ))}
                 {marquee.map((item, i) => (
                     <div className='marquee-item' key={i}>

@@ -4,13 +4,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
-    margin: 0;  
+    box-sizing: border-box;
+    margin: 100px 0;  
     width: 100%;
     max-width: 1800px;
     align-self: center;
     background-color: #fff;
     border-radius: 30px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .case-study-cont {
@@ -110,6 +112,8 @@
     .project_container{
         border-radius: 30px;
         width: 90%;
+        padding: 0 0px;
+        margin: 100px 100px;
         
     }
     .banner-intro {
