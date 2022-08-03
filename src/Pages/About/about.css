@@ -50,7 +50,7 @@
     align-items: flex-start;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 80px 40px 0px ;
+    padding: 40px 40px 0px ;
 }
 .pers-intro img {
     width: 100%;
@@ -105,11 +105,16 @@
         justify-content: space-between;
         padding: 0px 0 0 60px;
     }
+    .hey-there{
+        font-size: 28px;
+    }
+
     .display-one{
         color: #000000;
-        font-size: 65px;
+        font-size: 55px;
         font-weight: bold;
         font-family: 'Grifter', sans-serif;
+        margin-bottom: 20px;
     }
     
 }

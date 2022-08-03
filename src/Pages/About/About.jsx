@@ -16,7 +16,7 @@ const About = () => {
         <div className='pers-intro'>
           <img src={dotun} alt='Adedotun.png' />
           <div className='pers-introduction'>
-            <h2 className='gradient'>Hey There</h2>
+            <h2 className='gradient hey-there'>Hey There</h2>
             <span className='display-one'>I'm Adedotun Ayodimeji</span>
             <p>
               A product designer based in North London, United Kingdom.
