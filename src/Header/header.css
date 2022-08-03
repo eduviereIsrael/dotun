@@ -52,7 +52,7 @@ a {
 }
 
 .mobile-menu .menu-item p{
-    width: 100%;
+    width: max-content;
     text-align: center;
 }
 
