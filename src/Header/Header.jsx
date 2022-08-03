@@ -13,7 +13,7 @@ const Header = () => {
     <>
       <div className='header section-padding'>
         <div className='desktop-view'>
-          <Link to='/'>Work</Link>
+          <Link to='/' className='gradient'>Work</Link>
         </div>
         <div>
           <Link to='/'><p className='logo'>Adedotun Ayodimeji</p></Link>

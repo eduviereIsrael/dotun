@@ -79,7 +79,7 @@ const Caree = () => {
 
 <DivCarousel>
   {introMockups.map((item, i) => (
-    <div key = {i}>{item}</div>
+    <div key = {i} className='fs-div'>{item}</div>
     ))}
 </DivCarousel>
 
@@ -138,7 +138,7 @@ const Caree = () => {
 
 <DivCarousel>
   {finalDesignImg.map((item, i) => (
-    <div key = {i}>{item}</div>
+    <div key = {i} className='fs-div'>{item}</div>
     ))}
 </DivCarousel>
 

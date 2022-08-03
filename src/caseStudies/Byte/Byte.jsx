@@ -33,7 +33,8 @@ const Byte = () => {
     team,
     solution,
     tool,
-    year} = byte;
+    year,
+    finalDesign} = byte;
 
 
   return (
@@ -71,7 +72,7 @@ const Byte = () => {
           </div>
         </div>
 
-        <ImgCarousel carousel={introMockups} width='240px' class='intromMockups'/>
+        <ImgCarousel carousel={introMockups} width='23%' class='intromMockups'/>
         <div className='case-study-cont'>
               <Text header='Introduction' text={introduction} class='introduction'/>
 
@@ -129,12 +130,12 @@ const Byte = () => {
         <Text header='Wireframes' text={wireframes} class='wireframes' />
 
         <img src={wireframeImg} alt={wireframeImg} className='project-img wireframe-img' />
-
+        <Text header='Final Design' text={finalDesign} class='finalDesign' />
         </div>
 
         <DivCarousel>
           {finalDesignImg.map((item, i) => (
-            <div key = {i}>{item}</div>
+            <div key = {i} className='fs-div'>{item}</div>
             ))}
         </DivCarousel>
 

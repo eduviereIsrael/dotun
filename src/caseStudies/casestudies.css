@@ -22,6 +22,11 @@
     border-radius: 30px;
 }
 
+.fs-div{
+    width: 50%;
+    padding: 20px;
+}
+
 .p{
     padding: 0px 20px;
 }
@@ -107,6 +112,10 @@
 }
 
 @media screen and (min-width: 800px){
+    .fs-div{
+        width: 25%;
+        padding: 20px;
+    }
     .case-study-cont {
         padding: 0 100px 100px 100px;
     }

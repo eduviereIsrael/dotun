@@ -4,7 +4,7 @@ import './hifiscreen.css'
 const HiFiScreen = (props) => {
   return (
     <div className='hifi-screen'>
-        <img src={props.img} alt={props.img} style={{width: '240px'}}/>
+        <img src={props.img} alt={props.img} />
         <p className='small-text'>{props.screenName}</p>
     </div>
   )

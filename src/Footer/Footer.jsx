@@ -7,7 +7,7 @@ const {arrow} = images
 const Footer = () => {
   return (
     <div className='footer' id='contact'>
-      <p>
+      <p className='dim'>
         Intrested in working together?<br/>
         I'd love to hear from you.
       </p>
@@ -50,8 +50,8 @@ const Footer = () => {
 
       </div>
       <div className='contact-email'>
-        <span><a href="mailto:adedotunayodimeji@gmail.com" className='email-link'>adedotunayodimeji@gmail.com</a></span>
-        <p className='small-text'>@2022 Adedotun Ayodimeji</p>
+        <span><a href="mailto:adedotunayodimeji@gmail.com" className='email-link dim'>adedotunayodimeji@gmail.com</a></span>
+        <p className='small-text dim'>@2022 Adedotun Ayodimeji</p>
       </div>
     </div>
   )
