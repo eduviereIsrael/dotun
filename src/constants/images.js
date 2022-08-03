@@ -123,19 +123,23 @@ export const zFinalDesign = [
 export const socials = [
     {
         name: 'Twitter',
-        img: twitter
+        img: twitter,
+        url: 'https://twitter.com/ak_ayodimeji'
     },
     {
         name: 'Instagram',
-        img: instagram
+        img: instagram,
+        url: 'https://www.instagram.com/adedotun_ayodimeji/'
     },
     {
         name: 'Linkedin',
-        img: linkedin
+        img: linkedin,
+        url: 'https://www.linkedin.com/in/adedotun-ayodimeji-310697182/'
     },
     {
         name: 'Behance',
-        img: behance
+        img: behance,
+        url: 'https://www.behance.net/dotunsdesign'
     },
   
 ]
