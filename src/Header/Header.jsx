@@ -13,13 +13,13 @@ const Header = () => {
     <>
       <div className='header section-padding'>
         <div className='desktop-view'>
-          <Link to='/' className='gradient'>Work</Link>
+          <Link to='/' className='gradient'><p>Work</p></Link>
         </div>
         <div>
           <Link to='/'><p className='logo'>Adedotun Ayodimeji</p></Link>
         </div>
         <div className='desktop-view'>
-          <Link to='/about'>About</Link>
+          <Link to='/about' className='gradient'><p>About</p></Link>
         </div>
         <div className={menuClick? 'mobile-view hamburger-div spin': 'mobile-view hamburger-div'} onClick={() => setMenuClick(!menuClick)}>
           <div className='ham dis'></div>

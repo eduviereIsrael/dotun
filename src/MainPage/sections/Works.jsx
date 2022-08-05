@@ -22,7 +22,7 @@ const Works = () => {
             <div className='card'>
               <div className='card-intro'>
                   <h3 className='gradient'>{byte.name}</h3>
-                  <p className='gradient'>Roles: UI/UX Design, Interaction, Prototype</p>
+                  <p className='gradient small-text'>Roles: UI/UX Design,Interaction,Prototype</p>
                   <p className='small-text'>{byte.cardDesc}</p>
                   <Link to={byte.linkUrl} className='primary-btn'>View</Link>
               </div>
@@ -33,19 +33,18 @@ const Works = () => {
             <div className='card'>
               <div className='card-intro'>
                   <h3 className='gradient'>{byteOne.name}</h3>
-                  <p className='gradient'>Roles: Design lead,User flow,IA,Wireframes,Prototype</p>
+                  <p className='gradient small-text'>Roles: Design lead,User flow,IA,Wireframes,Prototype</p>
                   <p className='small-text'>{byteOne.cardDesc}</p>
-                  <span to={byteOne.linkUrl} className='primary-btn'>View</span>
+                  <span to={byteOne.linkUrl} className='primary-btn red'>Soon</span>
               </div>
               <div className='card-img'>
                 <img src={byteOne.img} alt={byteOne.name} />
               </div>
-              <span className='status'>soon</span>
             </div>
             <div className='card'>
               <div className='card-intro'>
                   <h3 className='gradient'>{caree.name}</h3>
-                  <p className='gradient'>Roles: UI/UX Design,Interaction,Prototype</p>
+                  <p className='gradient small-text'>Roles: UI/UX Design,Interaction,Prototype</p>
 
                   <p className='small-text'>{caree.cardDesc}</p>
                   <Link to={caree.linkUrl} className='primary-btn'>View</Link>
@@ -57,7 +56,7 @@ const Works = () => {
             <div className='card'>
               <div className='card-intro'>
                   <h3 className='gradient'>{zapmedx.name}</h3>
-                  <p className='gradient'>Roles: UI/UX Design,Prototype</p>
+                  <p className='gradient small-text'>Roles: UI Design,Prototype</p>
                   <p className='small-text'>{zapmedx.cardDesc}</p>
                   <Link to={zapmedx.linkUrl} className='primary-btn'>View</Link>
               </div>

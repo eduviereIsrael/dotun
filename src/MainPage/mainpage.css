@@ -145,6 +145,8 @@ h2{
     width:max-content;
     border-radius: 20px;
     border: 1px solid #fff;
+    font-family: 'Montserrat';  
+    font-size: 13px;
 }
 
 /* works section styling */
@@ -194,6 +196,10 @@ h2{
     border-radius: 50%;
     right: 20px;
     top: 55%;
+}
+
+.card .primary-btn{
+  padding: 10px 20px;
 }
 
 .small-text{

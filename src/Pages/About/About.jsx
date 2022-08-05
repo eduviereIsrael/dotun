@@ -7,7 +7,7 @@ import AnimatePage from '../../AnimatePage';
 const About = () => {
 
   const {dotun} = images;
-  const skills = ['Figma', 'Framer', 'Framer', 'Whimsical', 'Zeplin', 'Clickup', 'Slack', 'Photoshop', 'Adobe Ilustrator.']
+  const skills = ['Figma', 'Framer','Protopie', 'Whimsical', 'Zeplin', 'Clickup', 'Slack', 'Photoshop', 'Adobe Ilustrator.']
 
 
   return (
