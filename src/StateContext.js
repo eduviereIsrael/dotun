@@ -1,4 +1,4 @@
-import React, {createContext, useContext} from 'react';
+import React, {createContext, useContext, useState} from 'react';
 import {HiFiScreen} from './components';
 import { images, ByteIntroMockups, ByteLoFiSketch, byteSplashScreens, byteOnboardingScreens } from './constants/images';
 
@@ -6,6 +6,8 @@ import { images, ByteIntroMockups, ByteLoFiSketch, byteSplashScreens, byteOnboar
 const Context = createContext();
 
 export const StateContext = ({children}) => {
+
+    const [aboutClick, setAboutClick] = useState(false)
 
     const {
         Byte,
@@ -245,9 +247,11 @@ export const StateContext = ({children}) => {
 
     return(
         <Context.Provider
-        value={
-            project
-        }
+            value={{
+                project,
+                aboutClick,
+                setAboutClick
+            }}
             >
             {children}
         </Context.Provider>

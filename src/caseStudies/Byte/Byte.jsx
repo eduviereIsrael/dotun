@@ -9,7 +9,7 @@ import AnimatePage from '../../AnimatePage';
 
 const Byte = () => {
 
-  const project = useStateContext();
+  const {project} = useStateContext();
   const byte = {...project[0]}
   const {
     name, 
@@ -72,7 +72,7 @@ const Byte = () => {
           </div>
         </div>
 
-        <ImgCarousel carousel={introMockups} width='23%' class='intromMockups'/>
+        <ImgCarousel carousel={introMockups} width='230px' class='intromMockups'/>
         <div className='case-study-cont'>
               <Text header='Introduction' text={introduction} class='introduction'/>
 

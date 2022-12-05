@@ -7,9 +7,10 @@ import { useStateContext } from '../../StateContext';
 import { Team, Text } from '../../components';
 import AnimatePage from '../../AnimatePage';
 
+
 const Zapmedx = () => {
 
-  const project = useStateContext();
+  const {project} = useStateContext();
   const zapmedx = {...project[3]};
   const {
     name, 

@@ -22,6 +22,10 @@ a {
 .desktop-view{
     display: none;
 }
+.span {
+    display: flex;
+    color: #fff;
+}
 
 
 .hamburger{

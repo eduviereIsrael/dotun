@@ -5,7 +5,7 @@ import { useStateContext } from '../../StateContext';
 
 const Works = () => {
 
-  const project = useStateContext();
+  const { project } = useStateContext();
 
   const byte = {...project[0]}
   const byteOne = {...project[1]}

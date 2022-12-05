@@ -5,11 +5,11 @@ import { images, careeLoFiSketch } from '../../constants/images';
 import { DivCarousel, ImgCarousel, Text } from '../../components';
 import AnimatePage from '../../AnimatePage';
 
+
 const Caree = () => {
 
-  console.log(careeLoFiSketch)
 
-  const project = useStateContext();
+  const {project} = useStateContext();
 
   const caree = {...project[2]}
 

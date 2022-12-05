@@ -1,6 +1,7 @@
 {
   "name": "dotun-port",
   "version": "0.1.0",
+  "homepage": "https://dotunsdesign.co.uk",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

@@ -9,8 +9,12 @@ import Footer from './Footer/Footer';
 import { Byte, Caree, Zapmedx } from './caseStudies';
 import WrapScroll from './WrapScrroll';
 import { About } from './Pages';
+import { useParams } from 'react-router-dom';
 
 function App() {
+
+  let params =useParams();
+  console.log(params)
 
   return (
     // <BrowserRouter>
